@@ -1,31 +1,324 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ragdoll-archers-playable-20260401a</title>
-    <link rel="stylesheet" href="../site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ragdoll Archers Original Build Protocol</title>
+    <meta
+      name="description"
+      content="A survival website that reconnects Ragdoll Archers to the original Unity arena build, with patched medical sidecar systems, persistent guest data, and treatment tracking."
+    />
+    <link rel="icon" href="./game/logo.jpeg" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>ragdoll-archers-playable-20260401a</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/ragdoll-archers-playable-20260401a/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-game</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <p class="eyebrow">Original Build Recovery</p>
+          <h1>Ragdoll Archers Original Build Protocol</h1>
+          <p class="lede">
+            The original Unity arena is back on the page with patched WASM hooks,
+            medical sidecar systems, persistent guest data, and treatment-driven
+            death reporting layered around the real game.
+          </p>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/ragdoll-archers-playable-20260401a">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
-        </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/ragdoll-archers-playable-20260401a/</p>
+        <aside class="profile-card">
+          <div class="profile-row">
+            <div>
+              <p class="label">Profile</p>
+              <h2 id="profile-name">Guest Operator</h2>
+            </div>
+            <span class="save-pill" id="save-state">Local save active</span>
+          </div>
+          <dl class="profile-grid">
+            <div>
+              <dt>Save Slot</dt>
+              <dd id="profile-slot">guest-0000</dd>
+            </div>
+            <div>
+              <dt>Deaths Logged</dt>
+              <dd id="profile-deaths">0</dd>
+            </div>
+            <div>
+              <dt>Treatments Completed</dt>
+              <dd id="profile-treatments">0</dd>
+            </div>
+            <div>
+              <dt>Account Path</dt>
+              <dd>Guest now, cloud-ready later</dd>
+            </div>
+          </dl>
+          <div class="profile-actions">
+            <button class="button button-secondary" id="reset-profile" type="button">
+              Reset Guest Run
+            </button>
+            <button class="button button-ghost" type="button" disabled>
+              Sign-Up Coming Later
+            </button>
+          </div>
+        </aside>
+      </header>
+
+      <section class="mode-switcher">
+        <button class="mode-tab active" data-mode="twod" type="button">
+          Classic 2D Ragdoll Mode
+        </button>
+        <button class="mode-tab" data-mode="fps" type="button">
+          First-Person Survival Mode
+        </button>
       </section>
-    </main>
+
+      <main class="main-grid">
+        <section class="panel hero-panel">
+          <div class="hero-copy">
+            <p class="section-kicker">Mission Control</p>
+            <h2>Original arena combat, now tracked with injuries, supplies, and reports.</h2>
+            <p>
+              Food and drinks rebuild stamina only. Trauma now needs the correct
+              tool plus the right medical supply combination and quantity.
+            </p>
+          </div>
+          <div class="hero-stat-grid">
+            <article class="stat-card">
+              <span>Current Mode</span>
+              <strong id="current-mode-label">Classic 2D Ragdoll Mode</strong>
+            </article>
+            <article class="stat-card">
+              <span>Active Injuries</span>
+              <strong id="injury-count">0</strong>
+            </article>
+            <article class="stat-card">
+              <span>Unread Death Reports</span>
+              <strong id="report-count">0</strong>
+            </article>
+            <article class="stat-card">
+              <span>Medical Readiness</span>
+              <strong id="readiness-level">Stable</strong>
+            </article>
+          </div>
+        </section>
+
+        <aside class="panel hud-panel">
+          <div class="bars">
+            <div class="bar-block">
+              <div class="bar-head">
+                <span>Health</span>
+                <strong id="health-value">100</strong>
+              </div>
+              <div class="meter">
+                <div class="meter-fill health" id="health-bar"></div>
+              </div>
+            </div>
+            <div class="bar-block">
+              <div class="bar-head">
+                <span>Stamina</span>
+                <strong id="stamina-value">100</strong>
+              </div>
+              <div class="meter">
+                <div class="meter-fill stamina" id="stamina-bar"></div>
+              </div>
+            </div>
+          </div>
+
+          <section class="subpanel">
+            <div class="subpanel-head">
+              <h3>Collected Supplies</h3>
+              <span id="supply-summary">No inventory recorded</span>
+            </div>
+            <div class="supply-grid" id="supplies-grid"></div>
+          </section>
+
+          <section class="subpanel">
+            <div class="subpanel-head">
+              <h3>Treatment Needed</h3>
+              <span id="treatment-summary">No active trauma</span>
+            </div>
+            <div class="treatment-list" id="treatment-list"></div>
+          </section>
+        </aside>
+
+        <section class="panel mode-panel" id="twod-panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">Classic Bow Survival</p>
+              <h2>Classic 2D Ragdoll Mode</h2>
+            </div>
+            <div class="panel-actions">
+              <button class="button button-secondary" id="fullscreen-twod" type="button">
+                Fullscreen Arena
+              </button>
+              <button class="button button-ghost" id="twod-report-button" type="button">
+                View Last Death Report
+              </button>
+            </div>
+          </div>
+
+          <div class="legacy-layout">
+            <div class="game-stage-wrap">
+              <canvas id="twod-canvas" width="960" height="540" aria-label="Classic 2D ragdoll arena"></canvas>
+              <div class="game-overlay">
+                <div class="fps-chip">Mouse aim + click fire</div>
+                <div class="fps-chip">A / D move</div>
+                <div class="fps-chip">Space dodge</div>
+                <div class="fps-chip">E collect</div>
+                <div class="fps-chip">R treat</div>
+              </div>
+            </div>
+
+            <div class="control-column">
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Arena Status</h3>
+                  <span id="twod-status">Arena idle</span>
+                </div>
+                <p class="muted">
+                  This mode keeps the original Ragdoll Archers feel first: side-view bow combat,
+                  stick archers, readable arrow arcs, and ragdoll-like takedowns with the new systems layered in.
+                </p>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Arena Controls</h3>
+                  <span>Classic-feel gameplay with add-on systems</span>
+                </div>
+                <div class="button-cluster">
+                  <button class="button button-primary" id="start-twod" type="button">Load Original Arena</button>
+                  <button class="button button-secondary" id="pause-twod" type="button">Pause</button>
+                </div>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>World State</h3>
+                  <span>Live combat summary</span>
+                </div>
+                <div class="injury-list" id="twod-events"></div>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Stamina Intake</h3>
+                  <span>Food and drinks do not heal trauma</span>
+                </div>
+                <div class="button-cluster" id="food-buttons"></div>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Medical Actions</h3>
+                  <span>Correct supplies and tools are required</span>
+                </div>
+                <div class="button-cluster">
+                  <button class="button button-primary" id="attempt-treatment" type="button">
+                    Attempt Treatment
+                  </button>
+                  <button class="button button-secondary" id="rest-button" type="button">
+                    Stabilize / Rest
+                  </button>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel mode-panel hidden" id="fps-panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">Realism-Native Prototype</p>
+              <h2>First-Person Survival Mode</h2>
+            </div>
+            <div class="panel-actions">
+              <button class="button button-secondary" id="start-fps" type="button">
+                Start Simulation
+              </button>
+              <button class="button button-ghost" id="pause-fps" type="button">
+                Pause
+              </button>
+            </div>
+          </div>
+
+          <div class="fps-layout">
+            <div class="fps-stage-wrap">
+              <canvas id="fps-canvas" width="960" height="540" aria-label="First-person survival simulation"></canvas>
+              <div class="fps-overlay">
+                <div class="fps-chip">WASD move</div>
+                <div class="fps-chip">Mouse click fire / collect</div>
+                <div class="fps-chip">R treat when stable</div>
+              </div>
+            </div>
+            <div class="control-column">
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Field Brief</h3>
+                  <span id="fps-status">Simulation idle</span>
+                </div>
+                <p class="muted">
+                  Fight through incoming contacts, collect crates, and triage real injuries
+                  before shock, bleeding, and untreated trauma overwhelm the operator.
+                </p>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Objective Feed</h3>
+                  <span>Live encounter pressure</span>
+                </div>
+                <div class="injury-list" id="fps-objectives"></div>
+              </section>
+
+              <section class="subpanel compact">
+                <div class="subpanel-head">
+                  <h3>Status Effects</h3>
+                  <span>Temporary performance changes</span>
+                </div>
+                <div class="status-effects" id="status-effects"></div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel reports-panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">Medical Archive</p>
+              <h2>Recent Death Reports</h2>
+            </div>
+            <button class="button button-ghost" id="open-latest-report" type="button">
+              Open Latest Report
+            </button>
+          </div>
+          <div class="report-list" id="report-list"></div>
+        </section>
+
+        <section class="panel upgrades-panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">Enhancement Roadmap</p>
+              <h2>Upgrade and Enhancement Suggestions</h2>
+            </div>
+          </div>
+          <div class="upgrade-groups" id="upgrade-groups"></div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="death-modal" id="death-modal">
+      <div class="death-modal-inner">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Medical Death Report</p>
+            <h2 id="death-title">Operator deceased</h2>
+          </div>
+          <button class="button button-secondary" id="close-modal" type="button">
+            Close
+          </button>
+        </div>
+        <div class="death-report-body" id="death-report-body"></div>
+      </div>
+    </dialog>
+
+    <script src="./original-app.js"></script>
   </body>
 </html>

@@ -3,29 +3,171 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>nomads-firezone-20260323</title>
-    <link rel="stylesheet" href="../site.css" />
+    <title>Nomads Firezone</title>
+    <meta
+      name="description"
+      content="A standalone top-down shooting game site with a fast browser arena, power-ups, and survival pressure."
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>nomads-firezone-20260323</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/nomads-firezone-20260323/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-game</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+    <main class="page">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Live shooting game</p>
+          <h1>Nomads Firezone</h1>
+          <p class="lede">
+            Drop into a top-down survival firefight built for the browser. Dodge scan sweeps, break through
+            collapsing zones, grab combat power-ups, and stay alive long enough to own the room.
+          </p>
+
+          <div class="callouts">
+            <article class="card">
+              <span>Core loop</span>
+              <h2>Pressure-filled firefights</h2>
+              <p>Trade shots through scan sweeps, collapse zones, ricochet fire, and loot drops in a fast room.</p>
+            </article>
+            <article class="card">
+              <span>Fresh site</span>
+              <h2>Built as a new standalone deploy</h2>
+              <p>This version is packaged as its own website and can be shared directly with a clean public URL.</p>
+            </article>
+          </div>
+
+          <div class="hero-actions">
+            <button id="launch-button" class="button button-primary" type="button">Join Real PvP</button>
+            <a id="backend-link" class="button button-secondary" href="https://nomads-game-pvp-live.onrender.com/">Open Backend</a>
+          </div>
+
+          <p id="server-note" class="server-note">
+            The real PvP server lives on Render Free. If it has been idle, the first wake-up can take about a minute.
+          </p>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/nomads-firezone-20260323">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+
+        <aside class="hero-side card">
+          <p class="eyebrow">Arena features</p>
+          <h2>Scan lines, weapon boosts, and room chaos</h2>
+          <ul class="feature-list">
+            <li>WASD movement with mouse aim and instant restart flow.</li>
+            <li>Four-slot inventory with wall pass, invisibility, speed, and super bullet.</li>
+            <li>Eight-fighter room feel with roster rails, killfeed, and survival pressure.</li>
+            <li>Built in plain HTML, CSS, and JavaScript for a fast standalone deploy.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="arena panel" id="arena">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Live demo</p>
+            <h2>Browser Arena</h2>
+            <p id="status-text" class="status">
+              Join the live PvP server from here, or use the browser arena below while the backend wakes up.
+            </p>
+          </div>
+          <div class="badges">
+            <span id="scan-badge" class="badge">Scan idle</span>
+            <span id="phase-badge" class="badge">Awaiting launch</span>
+          </div>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/nomads-firezone-20260323/</p>
+
+        <div class="arena-grid">
+          <div class="stage-column">
+            <div class="canvas-shell">
+              <canvas id="game" width="1280" height="800" aria-label="Nomads Firezone playable arena"></canvas>
+              <div id="overlay" class="overlay">
+                <div class="overlay-card">
+                  <p id="overlay-kicker">Real server ready</p>
+                  <h3 id="overlay-title">Wake and Join PvP</h3>
+                  <p id="overlay-copy">
+                    This page now points at the real multiplayer server. If Render is asleep, we will wake it first and then send you in.
+                  </p>
+                  <button id="overlay-button" class="button button-primary" type="button">Wake Server</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="hud">
+              <article class="hud-card">
+                <span>Score</span>
+                <strong id="score-stat">0</strong>
+              </article>
+              <article class="hud-card">
+                <span>Hull</span>
+                <strong id="hp-stat">100</strong>
+              </article>
+              <article class="hud-card">
+                <span>Lives</span>
+                <strong id="lives-stat">4</strong>
+              </article>
+            </div>
+          </div>
+
+          <aside class="rail">
+            <article class="card">
+              <span>Inventory</span>
+              <h3>Arm power-ups</h3>
+              <div id="inventory" class="inventory"></div>
+            </article>
+
+            <article class="card">
+              <span>Killfeed</span>
+              <h3>Room chatter</h3>
+              <div id="killfeed" class="feed">
+                <p class="empty">No events yet. Start the arena to populate the feed.</p>
+              </div>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="systems panel">
+        <article class="card">
+          <span>Player roster</span>
+          <h2>Eight-fighter room simulation</h2>
+          <p>
+            The public site keeps the original room-based energy visible with a persistent roster, live health
+            rails, lives remaining, and score counts for every fighter.
+          </p>
+          <div id="roster" class="roster"></div>
+        </article>
+
+        <div class="stack">
+          <article class="card">
+            <span>Mechanics carried over</span>
+            <h2>Hazards, inventory, and arena pressure</h2>
+            <p>
+              Collapse zones and scan sweeps stay at the center of the experience so the standalone site still
+              feels like the same game concept, just presented as a polished public page.
+            </p>
+          </article>
+
+          <div class="legend">
+            <article class="card legend-card">
+              <span style="color:#4dd8ff">Phase</span>
+              <h3>Wall Pass</h3>
+              <p>Move through geometry and force cleaner escapes through tight chokepoints.</p>
+            </article>
+            <article class="card legend-card">
+              <span style="color:#cc7dff">Ghost</span>
+              <h3>Invisibility</h3>
+              <p>Break enemy focus and slide through dangerous moments with reduced visibility.</p>
+            </article>
+            <article class="card legend-card">
+              <span style="color:#ffb347">Boost</span>
+              <h3>Speed</h3>
+              <p>Turn the room into a sprint lane and outrun danger windows.</p>
+            </article>
+            <article class="card legend-card">
+              <span style="color:#ff537e">Cannon</span>
+              <h3>Super Bullet</h3>
+              <p>Load one piercing shot that can cut straight through the arena.</p>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>

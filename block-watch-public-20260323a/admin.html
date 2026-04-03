@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Watch Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Admin dashboard</p>
+          <h1>Inspect raw block events and ingestion health.</h1>
+          <p class="lede">
+            This page uses the private admin APIs protected by HTTP basic auth. Use it to validate recent syncs and
+            inspect raw events for a specific domain.
+          </p>
+        </div>
+        <div class="hero-status">
+          <div class="status-card">
+            <span class="dot"></span>
+            <div>
+              <p class="status-label">Access</p>
+              <p class="status-value">Admin authentication required</p>
+            </div>
+          </div>
+          <div class="mini-stats">
+            <article>
+              <span id="admin-sync-state">--</span>
+              <p>last sync state</p>
+            </article>
+            <article>
+              <span id="admin-imported">--</span>
+              <p>last import count</p>
+            </article>
+            <article>
+              <span id="admin-completed">--</span>
+              <p>last sync time</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-panel">
+        <label class="search-panel" for="admin-domain-search">
+          <span>Inspect one blocked domain</span>
+          <div class="search-input-wrap">
+            <input id="admin-domain-search" type="search" placeholder="example.com" autocomplete="off" />
+            <button id="admin-load-domain" type="button">Load</button>
+          </div>
+        </label>
+
+        <div class="content-grid">
+          <section class="glass card">
+            <div class="card-heading">
+              <p class="card-kicker">Domain details</p>
+              <h2 id="admin-domain-title">No domain selected</h2>
+            </div>
+            <dl class="focus-metrics">
+              <div>
+                <dt>First blocked</dt>
+                <dd id="admin-domain-first">--</dd>
+              </div>
+              <div>
+                <dt>Most recent block</dt>
+                <dd id="admin-domain-last">--</dd>
+              </div>
+              <div>
+                <dt>Total events</dt>
+                <dd id="admin-domain-count">--</dd>
+              </div>
+              <div>
+                <dt>Reason</dt>
+                <dd id="admin-domain-reason">--</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="glass card">
+            <div class="card-heading">
+              <p class="card-kicker">Recent raw events</p>
+              <h2>Last 100 records</h2>
+            </div>
+            <ul id="admin-event-list" class="site-list" aria-live="polite"></ul>
+          </section>
+        </div>
+
+        <section class="glass card admin-lookups-card">
+          <div class="card-heading">
+            <p class="card-kicker">Recent public lookups</p>
+            <h2>Last 100 catalog searches</h2>
+          </div>
+          <ul id="admin-lookup-list" class="site-list" aria-live="polite"></ul>
+        </section>
+      </section>
+    </main>
+
+    <template id="admin-event-template">
+      <li class="site-item">
+        <article class="site-button admin-event-card">
+          <div>
+            <p class="site-name"></p>
+            <p class="site-meta"></p>
+          </div>
+          <span class="site-count"></span>
+        </article>
+      </li>
+    </template>
+
+    <template id="admin-lookup-template">
+      <li class="site-item">
+        <article class="site-button admin-event-card">
+          <div>
+            <p class="site-name"></p>
+            <p class="site-meta"></p>
+          </div>
+          <span class="site-count"></span>
+        </article>
+      </li>
+    </template>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,479 @@
+:root {
+  --bg-top: #f4ede2;
+  --bg-bottom: #e7ddd0;
+  --ink: #f8f5ef;
+  --ink-muted: rgba(248, 245, 239, 0.75);
+  --line: rgba(255, 255, 255, 0.11);
+  --panel: rgba(12, 17, 28, 0.9);
+  --panel-strong: rgba(7, 10, 18, 0.95);
+  --gold: #e9c46a;
+  --orange: #f4a261;
+  --teal: #2a9d8f;
+  --slate: #264653;
+  --danger: #b42318;
+  --shadow: 0 28px 70px rgba(9, 12, 21, 0.22);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(244, 162, 97, 0.28), transparent 25%),
+    radial-gradient(circle at 80% 20%, rgba(42, 157, 143, 0.22), transparent 28%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.page-shell {
+  width: min(1360px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.hero-card,
+.panel-card,
+.error-banner {
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  background:
+    radial-gradient(circle at top right, rgba(233, 196, 106, 0.12), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(42, 157, 143, 0.14), transparent 28%),
+    linear-gradient(160deg, var(--panel), var(--panel-strong));
+}
+
+.hero-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 24px;
+  padding: 32px;
+}
+
+.hero-copy h1,
+.panel-header h2,
+.empty-state h2,
+.readonly-panel h3 {
+  margin: 0;
+}
+
+.hero-copy h1 {
+  max-width: 11ch;
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.lede,
+.microcopy,
+.metric-card span,
+.metric-card small,
+.empty-state p,
+.entry-button span,
+.entry-button small,
+.readonly-panel p {
+  margin: 0;
+  color: var(--ink-muted);
+  line-height: 1.7;
+}
+
+.lede {
+  max-width: 64ch;
+  font-size: 1.05rem;
+}
+
+.hero-actions,
+.toolbar-group,
+.mode-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+.primary-button,
+.secondary-button,
+.entry-button {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+  padding: 0 20px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.primary-button {
+  color: #101828;
+  background: linear-gradient(135deg, var(--gold), var(--orange));
+}
+
+.secondary-button {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.secondary-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.upload-button input {
+  display: none;
+}
+
+.primary-button:hover,
+.secondary-button:hover,
+.entry-button:hover {
+  transform: translateY(-2px);
+}
+
+.hero-metrics,
+.workspace-grid,
+.sidebar-panel,
+.editor-panel,
+.entry-list,
+.readonly-panel,
+.pdf-shell,
+.pdf-main,
+.pdf-sidebar,
+.pdf-page-list,
+.media-shell {
+  display: grid;
+  gap: 16px;
+}
+
+.metric-card {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.metric-card strong {
+  font-size: 1.08rem;
+}
+
+.error-banner {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border-radius: 20px;
+  color: #ffe3e1;
+  background: rgba(180, 35, 24, 0.2);
+}
+
+.panel-card {
+  margin-top: 18px;
+  padding: 24px;
+}
+
+.workspace-grid {
+  grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+  margin-top: 18px;
+}
+
+.pdf-shell {
+  grid-template-columns: minmax(290px, 0.78fr) minmax(0, 1.22fr);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.mode-toolbar {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mode-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.editor {
+  width: 100%;
+  min-height: 62vh;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  resize: vertical;
+  background: rgba(2, 6, 12, 0.86);
+  color: #f9fafb;
+  font: 500 0.98rem/1.7 "Consolas", "Courier New", monospace;
+}
+
+.editor--hex {
+  letter-spacing: 0.04em;
+}
+
+.editor:focus {
+  outline: 2px solid rgba(233, 196, 106, 0.55);
+  outline-offset: 2px;
+}
+
+.entry-list {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.entry-button {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.entry-button.is-active {
+  border-color: rgba(233, 196, 106, 0.72);
+  background: linear-gradient(135deg, rgba(233, 196, 106, 0.18), rgba(42, 157, 143, 0.16));
+}
+
+.entry-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.pdf-sidebar-copy,
+.pdf-page-header {
+  display: grid;
+  gap: 6px;
+}
+
+.pdf-page-list {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.pdf-page-chip {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.pdf-page-chip.is-active {
+  border-color: rgba(233, 196, 106, 0.72);
+  background: linear-gradient(135deg, rgba(233, 196, 106, 0.18), rgba(42, 157, 143, 0.16));
+}
+
+.pdf-stage {
+  min-height: 70vh;
+  padding: 18px;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.pdf-page-frame {
+  display: grid;
+  gap: 14px;
+}
+
+.pdf-canvas-wrap {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: white;
+}
+
+#pdf-canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pdf-annotation-layer {
+  position: absolute;
+  inset: 0;
+  cursor: crosshair;
+}
+
+.pdf-annotation {
+  position: absolute;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.pdf-annotation.is-highlight {
+  border: 2px solid rgba(255, 209, 102, 0.9);
+  background: rgba(255, 209, 102, 0.28);
+}
+
+.pdf-annotation.is-note {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid rgba(42, 157, 143, 0.95);
+  background: rgba(42, 157, 143, 0.82);
+  color: #081119;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.pdf-annotation.is-draft {
+  border: 2px dashed rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.readonly-panel {
+  min-height: 52vh;
+  align-content: start;
+  padding: 22px;
+  border-radius: 24px;
+  border: 1px dashed rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.readonly-panel.centered {
+  place-items: center;
+  text-align: center;
+}
+
+.readonly-panel pre {
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(2, 6, 12, 0.86);
+  color: var(--gold);
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.media-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.media-preview-shell {
+  display: grid;
+  place-items: center;
+  min-height: 60vh;
+  padding: 16px;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.media-preview {
+  display: block;
+  max-width: 100%;
+  max-height: 72vh;
+  border-radius: 18px;
+  background: rgba(2, 6, 12, 0.82);
+}
+
+.media-preview--video {
+  width: min(100%, 980px);
+}
+
+@media (max-width: 980px) {
+  .hero-card,
+  .workspace-grid,
+  .pdf-shell,
+  .media-meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-header,
+  .mode-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    width: min(100% - 20px, 1360px);
+    padding-top: 14px;
+  }
+
+  .hero-card,
+  .panel-card,
+  .error-banner {
+    border-radius: 24px;
+  }
+
+  .hero-card,
+  .panel-card {
+    padding: 20px;
+  }
+
+  .hero-actions,
+  .toolbar-group {
+    flex-direction: column;
+  }
+
+  .primary-button,
+  .secondary-button {
+    width: 100%;
+  }
+}

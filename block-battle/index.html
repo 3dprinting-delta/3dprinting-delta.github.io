@@ -1,31 +1,302 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>block-battle</title>
-    <link rel="stylesheet" href="../site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Battle Live 3D</title>
+    <meta
+      name="description"
+      content="Block Battle Live is a browser 3D voxel PvP game with familiar block-building controls, touch support, bot-filled live rooms, Lucky Blocks Islands, and SkyWars."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Chakra+Petch:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/block-battle/styles.css" />
   </head>
   <body>
+    <div class="sky"></div>
     <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>block-battle</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/block-battle/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-game</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+      <section class="hero panel">
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-screenshot">
+            <div class="screenshot-topbar">
+              <span class="shot-chip live">Live Room</span>
+              <span class="shot-chip mode">SkyWars / Lucky Islands</span>
+              <span class="shot-chip ping">18 ms</span>
+            </div>
+
+            <div class="screenshot-world">
+              <div class="shot-sun"></div>
+              <div class="shot-cloud cloud-a"></div>
+              <div class="shot-cloud cloud-b"></div>
+              <div class="shot-island island-a">
+                <span class="shot-grass"></span>
+                <span class="shot-dirt"></span>
+                <span class="shot-lucky">?</span>
+              </div>
+              <div class="shot-island island-b">
+                <span class="shot-grass"></span>
+                <span class="shot-dirt"></span>
+                <span class="shot-cover one"></span>
+                <span class="shot-cover two"></span>
+              </div>
+              <div class="shot-island island-c">
+                <span class="shot-grass"></span>
+                <span class="shot-dirt"></span>
+                <span class="shot-lava"></span>
+              </div>
+              <div class="shot-bridge bridge-a"></div>
+              <div class="shot-bridge bridge-b"></div>
+              <div class="shot-name enemy-left">LuckyBot</div>
+              <div class="shot-name enemy-right">SkyRogue</div>
+              <div class="shot-fighter blue"></div>
+              <div class="shot-fighter red"></div>
+              <div class="shot-blast blast-blue"></div>
+              <div class="shot-blast blast-red"></div>
+              <div class="shot-crosshair">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <div class="screenshot-hud">
+              <div class="hud-panel left">
+                <span class="hud-label">HP 84</span>
+                <span class="hud-meter">
+                  <span class="hud-fill health"></span>
+                </span>
+              </div>
+              <div class="hud-panel center">
+                <span class="hud-round">Final 3</span>
+                <span class="hud-timer">01:26</span>
+              </div>
+              <div class="hud-panel right">
+                <span class="hud-label">Ammo 12</span>
+                <span class="hud-meter">
+                  <span class="hud-fill ammo"></span>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/block-battle">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+        <div class="hero-copy">
+          <p class="eyebrow">3D Voxel PvP</p>
+          <h1>Jump into live block battles.</h1>
+          <p class="lede">Original 3D voxel arenas with familiar build-and-fight controls, touch sticks, bots, and fast browser matches.</p>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/block-battle/</p>
+        <div class="hero-actions">
+          <a class="primary-button hero-play" href="#game-stage">Jump to arena</a>
+          <a class="ghost-link" href="/">Open homepage</a>
+        </div>
+      </section>
+
+      <section class="layout">
+        <aside class="sidebar">
+          <section class="panel stack">
+            <div class="section-head">
+              <p class="section-kicker">Identity</p>
+              <p id="connection-status" class="pill">Offline</p>
+            </div>
+            <label class="field">
+              <span>Guest name</span>
+              <input id="player-name" type="text" maxlength="18" placeholder="Voxel Raider" />
+            </label>
+          </section>
+
+          <section class="panel stack">
+            <div class="section-head">
+              <p class="section-kicker">Create room</p>
+              <p class="microcopy">Choose a mode, terrain, and either launch live play or instant bot practice.</p>
+            </div>
+            <label class="field">
+              <span>Room name</span>
+              <input id="room-label" type="text" maxlength="32" placeholder="Bridge chaos" />
+            </label>
+            <label class="field">
+              <span>Mode</span>
+              <select id="mode-select"></select>
+            </label>
+            <label class="field">
+              <span>Terrain</span>
+              <select id="terrain-select"></select>
+            </label>
+            <div class="grid-2">
+              <label class="field">
+                <span>Max players</span>
+                <input id="max-players" type="number" min="2" max="12" value="8" />
+              </label>
+              <label class="field">
+                <span>Target pop</span>
+                <input id="target-population" type="number" min="2" max="12" value="6" />
+              </label>
+            </div>
+            <div class="action-grid">
+              <button id="practice-private" class="primary-button" type="button">Start private practice</button>
+              <button id="create-room" class="secondary-button" type="button">Create live room</button>
+              <button id="practice-public" class="secondary-button" type="button">Create public practice</button>
+            </div>
+          </section>
+
+          <section class="panel stack">
+            <div class="section-head">
+              <p class="section-kicker">Live servers</p>
+              <button id="refresh-servers" class="secondary-button compact-button" type="button">Refresh</button>
+            </div>
+            <p id="server-count" class="microcopy">Loading...</p>
+            <div id="server-list" class="server-list"></div>
+            <div id="server-empty-state" class="server-empty-state" hidden>
+              <p class="empty-state-title">No live rooms yet</p>
+              <p class="microcopy">Start private practice right away, or create a room and let bots backfill the match.</p>
+            </div>
+          </section>
+
+          <section class="panel stack">
+            <div class="section-head">
+              <p class="section-kicker">Controls</p>
+            </div>
+            <div class="controls">
+              <p><strong>Move:</strong> WASD</p>
+              <p><strong>Look:</strong> Mouse or right stick</p>
+              <p><strong>Jump:</strong> Space</p>
+              <p><strong>Fire / attack:</strong> Left click or Fire button</p>
+              <p><strong>Place block:</strong> Right click or Place button</p>
+              <p><strong>Break block:</strong> R or Break button</p>
+              <p><strong>Melee:</strong> F</p>
+              <p><strong>Camera:</strong> Q</p>
+              <p><strong>Touch:</strong> Left move stick, right look stick, action buttons</p>
+              <p><strong>Weapons:</strong> 1-4</p>
+              <p><strong>Blocks:</strong> Z/X/C/V</p>
+            </div>
+          </section>
+        </aside>
+
+        <section class="main-stage">
+          <section class="hud-grid">
+            <article class="panel stat-card">
+              <p class="section-kicker">Mode</p>
+              <p id="mode-label" class="stat-value">No room</p>
+            </article>
+            <article class="panel stat-card">
+              <p class="section-kicker">Phase</p>
+              <p id="phase-label" class="stat-value">Lobby</p>
+            </article>
+            <article class="panel stat-card">
+              <p class="section-kicker">Health</p>
+              <p id="health-label" class="stat-value">100</p>
+            </article>
+            <article class="panel stat-card">
+              <p class="section-kicker">View</p>
+              <p id="view-label" class="stat-value">First-person</p>
+            </article>
+          </section>
+
+          <section class="panel arena-panel">
+            <div class="arena-head">
+              <div>
+                <p id="room-title" class="section-kicker">Select a room</p>
+                <p id="room-subtitle" class="microcopy">Click to lock aim. Tap or drag on mobile to look around.</p>
+              </div>
+              <div class="arena-badges">
+                <span id="players-badge" class="pill">0 fighters</span>
+                <span id="timer-badge" class="pill">--</span>
+              </div>
+            </div>
+            <div id="game-stage" class="game-stage">
+              <canvas id="game-canvas" width="1280" height="720"></canvas>
+              <div id="touch-controls" class="touch-controls">
+                <div class="touch-stick left" id="move-stick">
+                  <div class="touch-stick-base">
+                    <div class="touch-stick-thumb" id="move-thumb"></div>
+                  </div>
+                </div>
+                <div class="touch-actions">
+                  <button id="touch-break" class="touch-button small" type="button">Break</button>
+                  <button id="touch-jump" class="touch-button medium" type="button">Jump</button>
+                  <button id="touch-place" class="touch-button small" type="button">Place</button>
+                  <button id="touch-fire" class="touch-button fire" type="button">Fire</button>
+                </div>
+                <div class="touch-stick right" id="aim-stick">
+                  <div class="touch-stick-base">
+                    <div class="touch-stick-thumb" id="aim-thumb"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="stage-overlay" class="stage-overlay">
+                <div class="stage-overlay-copy">
+                  <p id="stage-state" class="stage-state">Ready for battle</p>
+                  <h2 id="stage-headline">Pick a room and drop into the voxel arena.</h2>
+                  <p id="stage-copy" class="stage-copy">
+                    The 3D battle world loads here as soon as you join or create a live room. Bots keep matches alive
+                    when no one else is online.
+                  </p>
+                </div>
+                <div class="stage-art" aria-hidden="true">
+                  <div class="stage-cloud cloud-one"></div>
+                  <div class="stage-cloud cloud-two"></div>
+                  <div class="stage-bridge"></div>
+                  <div class="stage-island island-left">
+                    <span class="island-top"></span>
+                    <span class="island-bottom"></span>
+                    <span class="lucky-cube">?</span>
+                  </div>
+                  <div class="stage-island island-center">
+                    <span class="island-top"></span>
+                    <span class="island-bottom"></span>
+                    <span class="cover-block"></span>
+                    <span class="cover-block two"></span>
+                    <span class="fighter fighter-blue"></span>
+                  </div>
+                  <div class="stage-island island-right">
+                    <span class="island-top"></span>
+                    <span class="island-bottom"></span>
+                    <span class="lava-strip"></span>
+                    <span class="fighter fighter-red"></span>
+                  </div>
+                  <div class="stage-shot shot-blue"></div>
+                  <div class="stage-shot shot-red"></div>
+                </div>
+              </div>
+              <div id="crosshair" class="crosshair" aria-hidden="true"></div>
+              <div id="damage-flash" class="damage-flash" aria-hidden="true"></div>
+              <div id="fallback-message" class="fallback-message" hidden>
+                The 3D renderer did not initialize. Try a newer browser or reload the page.
+              </div>
+            </div>
+          </section>
+
+          <section class="bottom-grid">
+            <section class="panel">
+              <div class="section-head">
+                <p class="section-kicker">Kill feed</p>
+              </div>
+              <div id="kill-feed" class="feed"></div>
+            </section>
+            <section class="panel">
+              <div class="section-head">
+                <p class="section-kicker">Scoreboard</p>
+              </div>
+              <div id="scoreboard" class="scoreboard"></div>
+            </section>
+          </section>
+        </section>
       </section>
     </main>
+
+    <template id="server-card-template">
+      <button class="server-card" type="button">
+        <span class="server-title-row">
+          <span class="server-title"></span>
+          <span class="server-badge" hidden></span>
+        </span>
+        <span class="server-meta"></span>
+      </button>
+    </template>
+
+    <script src="https://unpkg.com/three@0.161.0/build/three.min.js"></script>
+    <script src="/game/shared.js"></script>
+    <script src="/block-battle/app.js"></script>
   </body>
 </html>

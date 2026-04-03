@@ -1,31 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>block-watch-public-20260323a</title>
-    <link rel="stylesheet" href="../site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
     <main class="shell">
       <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>block-watch-public-20260323a</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/block-watch-public-20260323a/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-site</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+        <div class="hero-copy">
+          <p class="eyebrow">Blocked-domain catalog</p>
+          <h1>Browse and search the blocked domains currently documented in this dataset.</h1>
+          <p class="lede">
+            This website documents blocked domains from the current approved dataset and lets you search them by name,
+            reason, or domain. Demo data is shown automatically until a live database is connected.
+          </p>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/block-watch-public-20260323a">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+        <div class="hero-status">
+          <div class="status-card">
+            <span class="dot"></span>
+            <div>
+              <p class="status-label">Feed status</p>
+              <p id="feed-status" class="status-value">Connecting to backend</p>
+            </div>
+          </div>
+          <div class="mini-stats">
+            <article>
+              <span id="blocked-count">0</span>
+              <p>sites tracked</p>
+            </article>
+            <article>
+              <span id="event-count">0</span>
+              <p>block events</p>
+            </article>
+            <article>
+              <span id="last-refresh">--</span>
+              <p>last update</p>
+            </article>
+          </div>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/block-watch-public-20260323a/</p>
+      </section>
+
+      <section class="workspace-panel">
+        <section class="glass card privacy-card">
+          <div class="card-heading">
+            <p class="card-kicker">Dataset notes</p>
+            <h2>Public catalog with anonymous aggregated stats</h2>
+          </div>
+          <p class="guidance">
+            This website documents domain-level summaries such as blocked counts, first seen, last seen, and the
+            public-facing reason. It does not scan devices, track a user, or record complete browsing histories on the
+            public site.
+          </p>
+        </section>
+
+        <label class="search-panel" for="site-search">
+          <span>Search the blocked-domain catalog</span>
+          <div class="search-input-wrap">
+            <input
+              id="site-search"
+              type="search"
+              placeholder="Try youtube.com, roblox.com, streaming, social..."
+              autocomplete="off"
+            />
+            <button id="clear-search" type="button">Clear</button>
+          </div>
+        </label>
+
+        <div class="content-grid">
+          <section class="glass card focus-card">
+            <div class="card-heading">
+              <p class="card-kicker">Selected catalog entry</p>
+              <h2 id="focus-title">Pick a documented domain to inspect it</h2>
+            </div>
+            <div id="verdict-card" class="verdict-card verdict-idle">
+              <p class="card-kicker">Catalog status</p>
+              <h3 id="verdict-label">Catalog loaded</h3>
+              <p id="verdict-copy" class="guidance">Browse the list or search a domain to narrow the documented results.</p>
+            </div>
+
+            <dl class="focus-metrics">
+              <div>
+                <dt>First blocked</dt>
+                <dd id="focus-first-seen">--</dd>
+              </div>
+              <div>
+                <dt>Most recent event</dt>
+                <dd id="focus-last-seen">--</dd>
+              </div>
+              <div>
+                <dt>Events logged</dt>
+                <dd id="focus-events">--</dd>
+              </div>
+              <div>
+                <dt>Reason</dt>
+                <dd id="focus-reason">--</dd>
+              </div>
+            </dl>
+
+            <div class="request-box">
+              <p class="card-kicker">Approved next step</p>
+              <p id="focus-guidance" class="guidance">
+                Select an entry to see the recommended review path.
+              </p>
+              <textarea id="request-template" readonly></textarea>
+              <div class="request-actions">
+                <button id="copy-request" type="button">Copy request message</button>
+                <a id="policy-link" href="https://support.securly.com/hc/en-us" target="_blank" rel="noreferrer">Open policy page</a>
+                <a href="./admin.html">Open admin dashboard</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="glass card">
+            <div class="card-heading">
+              <p class="card-kicker">Documented blocked domains</p>
+              <h2>Catalog results</h2>
+            </div>
+            <p id="results-status" class="results-status">Loading catalog...</p>
+            <p id="public-error" class="inline-message" hidden></p>
+            <ul id="site-list" class="site-list" aria-live="polite"></ul>
+          </section>
+        </div>
       </section>
     </main>
+
+    <template id="site-item-template">
+      <li class="site-item">
+        <button type="button" class="site-button">
+          <div>
+            <p class="site-name"></p>
+            <p class="site-meta"></p>
+          </div>
+          <span class="site-count"></span>
+        </button>
+      </li>
+    </template>
+
+    <script src="./app.js"></script>
   </body>
 </html>

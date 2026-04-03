@@ -1,0 +1,17 @@
+*
+!admin.html
+!styles.css
+!app.js
+!admin.js
+!package.json
+!package-lock.json
+!vercel.json
+!api
+!api/**
+!lib
+!lib/**
+!data
+!data/**
+!scripts
+!scripts/**
+!README.md

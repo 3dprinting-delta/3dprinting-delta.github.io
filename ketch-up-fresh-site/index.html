@@ -3,29 +3,78 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ketch-up-fresh-site</title>
-    <link rel="stylesheet" href="../site.css" />
+    <title>2D Ketch-Up Arena</title>
+    <meta
+      name="description"
+      content="A fresh public website for the 2D Ketch-Up arena concept, rebuilt as a standalone interactive landing page."
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>ketch-up-fresh-site</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/ketch-up-fresh-site/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-site</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+    <main class="page">
+      <section class="hero panel">
+        <div class="copy">
+          <p class="eyebrow">Fresh standalone deployment</p>
+          <h1>2D Ketch-Up Arena</h1>
+          <p class="lede">
+            This is a new public website link for the Ketch-Up concept, built as its own standalone site so it
+            does not depend on the older broken URL.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="#arena">Open arena preview</a>
+            <a class="button button-secondary" href="#systems">View systems</a>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/ketch-up-fresh-site">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+        <div class="stats card">
+          <span>Includes</span>
+          <h2>Playable-style presentation</h2>
+          <ul>
+            <li>Animated arena background</li>
+            <li>Power-up legend</li>
+            <li>Fresh public link</li>
+            <li>Standalone deployment</li>
+          </ul>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/ketch-up-fresh-site/</p>
+      </section>
+
+      <section class="arena panel" id="arena">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Arena preview</p>
+            <h2>Live visual stage</h2>
+            <p class="lede">A lightweight browser preview that keeps the game energy visible on the page.</p>
+          </div>
+          <div class="badge">Fresh Link Active</div>
+        </div>
+        <div class="canvas-shell">
+          <canvas id="arena-canvas" width="1280" height="720" aria-label="Animated 2D Ketch-Up arena"></canvas>
+        </div>
+      </section>
+
+      <section class="systems panel" id="systems">
+        <article class="card">
+          <span>Hazards</span>
+          <h3>Scan sweeps and collapse zones</h3>
+          <p>The original idea mixed movement pressure with dangerous arena events, so the site keeps those front and center.</p>
+        </article>
+        <article class="card">
+          <span>Power-up</span>
+          <h3>Wall Pass</h3>
+          <p>Move through geometry and break tight choke points.</p>
+        </article>
+        <article class="card">
+          <span>Power-up</span>
+          <h3>Invisibility</h3>
+          <p>Drop enemy focus and slide through dangerous moments.</p>
+        </article>
+        <article class="card">
+          <span>Power-up</span>
+          <h3>Super Bullet</h3>
+          <p>Load a piercing shot that can cut across the room.</p>
+        </article>
       </section>
     </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>

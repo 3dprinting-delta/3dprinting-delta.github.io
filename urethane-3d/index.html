@@ -1,31 +1,266 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>urethane-3d</title>
-    <link rel="stylesheet" href="../site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urethane 3D Web Remake</title>
+    <meta
+      name="description"
+      content="Play the upgraded browser remake of Urethane 3D, rebuilt as a three-phase arcade mission from the recovered Godot desktop build."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/urethane-3d/urethane-3d.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>urethane-3d</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/urethane-3d/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>3d-web-app</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+    <div class="backdrop-grid" aria-hidden="true"></div>
+    <div class="backdrop-glow glow-left" aria-hidden="true"></div>
+    <div class="backdrop-glow glow-right" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Playable Web Route</p>
+          <h1>Urethane 3D Mission Upgrade</h1>
+          <p class="hero-text">
+            The browser remake now plays like a short arcade operation instead of a single sweep. Push through three
+            phases, stabilize the checkpoint pad, survive the contested mid-arena pressure, and extract the core before
+            your integrity fails.
+          </p>
+          <div class="hero-actions">
+            <button id="start-run" class="primary-button" type="button">Start Mission</button>
+            <a
+              class="secondary-button"
+              href="https://raw.githubusercontent.com/leofenghy/We-The-Urethane/main/urethane-3D-game.7z"
+              target="_blank"
+              rel="noreferrer"
+              >Download Desktop Build</a
+            >
+            <a class="secondary-button" href="/">Back To Homepage</a>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/urethane-3d">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
-        </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/urethane-3d/</p>
+
+        <aside class="hero-panel">
+          <article class="info-card">
+            <p class="mini-label">Mission Structure</p>
+            <ul class="detail-list compact-list">
+              <li>Phase 1: secure four shards in the start lane</li>
+              <li>Phase 2: hit the checkpoint and endure the pressure sweep</li>
+              <li>Phase 3: unlock extraction and finish the run</li>
+            </ul>
+          </article>
+          <article class="info-card">
+            <p class="mini-label">Recovered Source Clues</p>
+            <ul class="detail-list compact-list">
+              <li>Godot desktop export</li>
+              <li><code>res://node_3d.tscn</code> scene reference</li>
+              <li>InputMap and 3D camera systems present</li>
+              <li>Desktop artifact contains only <code>urethane-3D-game.exe</code></li>
+            </ul>
+          </article>
+          <article class="info-card">
+            <p class="mini-label">Desktop Focus</p>
+            <p id="device-note">
+              This route is tuned for desktop keyboard and mouse play. Mobile browsers can still load the page, but the
+              full control scheme is designed for larger screens.
+            </p>
+          </article>
+        </aside>
+      </section>
+
+      <section class="game-layout">
+        <section class="game-panel">
+          <div class="hud-bar">
+            <div class="hud-chip">
+              <span>Status</span>
+              <strong id="status-text">Ready</strong>
+            </div>
+            <div class="hud-chip">
+              <span>Phase</span>
+              <strong id="phase-text">Phase 1</strong>
+            </div>
+            <div class="hud-chip hud-chip-wide">
+              <span>Objective</span>
+              <strong id="objective-text">Secure the start-lane shards.</strong>
+            </div>
+            <div class="hud-chip">
+              <span>Shards</span>
+              <strong id="shard-count">0 / 8</strong>
+            </div>
+            <div class="hud-chip">
+              <span>Integrity</span>
+              <strong id="health-count">100</strong>
+              <div class="meter-track"><div id="health-fill" class="meter-fill tone-health"></div></div>
+            </div>
+            <div class="hud-chip">
+              <span>Time</span>
+              <strong id="time-count">160.0s</strong>
+              <div class="meter-track"><div id="time-fill" class="meter-fill tone-time"></div></div>
+            </div>
+            <div class="hud-chip">
+              <span>Boost</span>
+              <strong id="boost-count">100</strong>
+              <div class="meter-track"><div id="boost-fill" class="meter-fill tone-boost"></div></div>
+            </div>
+          </div>
+
+          <div class="mission-strip">
+            <div class="mission-pill">
+              <span>Checkpoint</span>
+              <strong id="checkpoint-text">Offline</strong>
+            </div>
+            <div class="mission-pill">
+              <span>Pressure Sweep</span>
+              <strong id="pressure-text">Stand by</strong>
+            </div>
+            <div class="mission-pill">
+              <span>Projected Score</span>
+              <strong id="score-count">0</strong>
+            </div>
+          </div>
+
+          <div class="canvas-frame">
+            <canvas id="game-canvas"></canvas>
+            <div id="impact-flash" class="impact-flash" aria-hidden="true"></div>
+            <div id="warning-vignette" class="warning-vignette" aria-hidden="true"></div>
+            <div id="crosshair" class="crosshair" aria-hidden="true">
+              <span></span>
+              <span></span>
+            </div>
+            <div id="control-toast" class="control-toast" aria-live="polite"></div>
+            <div id="overlay" class="overlay">
+              <div class="overlay-card">
+                <p class="mini-label" id="overlay-kicker">Mission Brief</p>
+                <h2>Recover the urethane core.</h2>
+                <p class="overlay-copy" id="overlay-copy">
+                  Use <code>W A S D</code> to move, click the arena to lock the mouse, press <code>Shift</code> to surge,
+                  tap <code>Space</code> to hop, press <code>C</code> to cycle camera views, and press <code>Esc</code> to unlock the mouse.
+                </p>
+                <div id="overlay-summary" class="overlay-summary"></div>
+                <button id="overlay-start" class="primary-button" type="button">Enter Arena</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="sidebar">
+          <article class="side-card">
+            <p class="mini-label">Control Deck</p>
+            <div class="control-grid">
+              <div class="control-stat">
+                <span>Camera</span>
+                <strong id="camera-mode-text">Shoulder Cam</strong>
+              </div>
+              <div class="control-stat">
+                <span>Look Mode</span>
+                <strong id="look-mode-text">Drag Look</strong>
+              </div>
+            </div>
+            <div class="control-actions">
+              <button id="toggle-camera" class="secondary-button full-width" type="button">Cycle Camera</button>
+              <button id="toggle-look" class="secondary-button full-width" type="button">Enable Mouselook</button>
+            </div>
+            <label class="control-setting" for="look-sensitivity">
+              <span>Look Sensitivity</span>
+              <strong id="sensitivity-value">1.00x</strong>
+            </label>
+            <input id="look-sensitivity" class="control-slider" type="range" min="60" max="180" value="100" />
+            <label class="control-toggle" for="invert-y">
+              <input id="invert-y" type="checkbox" />
+              <span>Invert Y look</span>
+            </label>
+          </article>
+
+          <article class="side-card">
+            <p class="mini-label">Control Primer</p>
+            <div class="primer-grid">
+              <div class="primer-step">
+                <span>01</span>
+                <p>Click the arena to lock the mouse for full mouselook.</p>
+              </div>
+              <div class="primer-step">
+                <span>02</span>
+                <p>Press <code>Esc</code> at any time to release mouselook safely.</p>
+              </div>
+              <div class="primer-step">
+                <span>03</span>
+                <p>Press <code>C</code> to switch between shoulder, chase, and cockpit views.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="side-card">
+            <p class="mini-label">Mission Ladder</p>
+            <div class="mission-ladder">
+              <div class="ladder-step" id="ladder-phase-1">
+                <span class="ladder-index">01</span>
+                <div>
+                  <strong>Start Lane</strong>
+                  <p>Grab the opening shard cluster and charge the checkpoint pad.</p>
+                </div>
+              </div>
+              <div class="ladder-step" id="ladder-phase-2">
+                <span class="ladder-index">02</span>
+                <div>
+                  <strong>Pressure Window</strong>
+                  <p>Hold through sweep hazards while clearing the remaining contested pickups.</p>
+                </div>
+              </div>
+              <div class="ladder-step" id="ladder-phase-3">
+                <span class="ladder-index">03</span>
+                <div>
+                  <strong>Extraction</strong>
+                  <p>Break for the gate and cash out the run before integrity falls apart.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="side-card">
+            <p class="mini-label">Controls</p>
+            <ul class="detail-list compact-list">
+              <li><code>W A S D</code>: move</li>
+              <li><code>Shift</code>: boost</li>
+              <li><code>Space</code>: hop</li>
+              <li>Click arena or <code>L</code>: capture mouselook</li>
+              <li><code>C</code>: cycle chase, shoulder, and cockpit views</li>
+              <li><code>Esc</code>: release mouselook</li>
+              <li><code>R</code>: restore checkpoint or restart</li>
+            </ul>
+          </article>
+
+          <article class="side-card">
+            <p class="mini-label">Visual Readout</p>
+            <div class="legend-grid">
+              <div class="legend-chip"><span class="legend-dot tone-player"></span>Operative</div>
+              <div class="legend-chip"><span class="legend-dot tone-shard"></span>Shard pickups</div>
+              <div class="legend-chip"><span class="legend-dot tone-drone"></span>Threat drones</div>
+              <div class="legend-chip"><span class="legend-dot tone-exit"></span>Extraction gate</div>
+            </div>
+          </article>
+
+          <article class="side-card">
+            <p class="mini-label">About This Remake</p>
+            <p class="side-copy">
+              The original GitHub artifact is a Windows desktop build, not a web package. This route keeps the 3D game
+              playable online while preserving the original build as a separate download artifact.
+            </p>
+            <a
+              class="secondary-button full-width"
+              href="https://github.com/leofenghy/We-The-Urethane"
+              target="_blank"
+              rel="noreferrer"
+              >Open GitHub Repo</a
+            >
+          </article>
+        </aside>
       </section>
     </main>
+
+    <script type="module" src="/urethane-3d/urethane-3d.js"></script>
   </body>
 </html>

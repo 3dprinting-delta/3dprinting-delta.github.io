@@ -1,0 +1,26 @@
+{
+  "source_wasm": "C:\\codex sum it up\\ragdoll-decomp-output\\decompressed\\build.wasm",
+  "source_mapping": "C:\\codex sum it up\\ragdoll-decomp-output\\patched-wasmmappings-success-attempt\\wasm_mappings.txt",
+  "patched_wasm": "C:\\codex sum it up\\ragdoll-archers-playable-20260401a\\game\\PatchedBuild\\build.patched.wasm",
+  "imported_function_count": 418,
+  "applied_patches": [
+    {
+      "method": "Codebase.Stickman.PlayerStickman::OnAppleStuck",
+      "signature": "System.Void",
+      "function_index": 9959,
+      "code_index": 9541,
+      "body_size": 269,
+      "strategy": "noop",
+      "reason": "Remove direct apple-triggered original healing behavior so stamina and medical systems can be layered externally."
+    },
+    {
+      "method": "Codebase.Stickman.Stickman::OnAppleStuck",
+      "signature": "System.Void",
+      "function_index": 6927,
+      "code_index": 6509,
+      "body_size": 302,
+      "strategy": "noop",
+      "reason": "Prevent generic stickman apple-stuck recovery side effects from bypassing the externalized medical system."
+    }
+  ]
+}

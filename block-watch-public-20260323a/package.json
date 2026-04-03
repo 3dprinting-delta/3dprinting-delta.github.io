@@ -1,0 +1,16 @@
+{
+  "name": "block-watch-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authorized Securly monitoring platform with public rollups and private admin tooling.",
+  "scripts": {
+    "start": "npx serve .",
+    "check": "node --check app.js && node --check admin.js && node --check lib/db.js && node --check lib/http.js && node --check lib/auth.js && node --check lib/normalize.js && node --check lib/repository.js && node --check lib/securly.js && node --check lib/demo-data.js && node --check lib/mirror-source.js && node --check lib/catalog-data.js && node --check api/catalog.js && node --check api/public/sites.js && node --check api/admin/events.js && node --check api/admin/lookups.js && node --check api/admin/sites/[domain].js && node --check api/ingest/securly.js && node --check api/cron/sync-securly.js && node --check scripts/seed-sample-data.js && node --check scripts/import-public-blocklists.js && node --check scripts/generate-mirrored-snapshot.js",
+    "seed:sample": "node scripts/seed-sample-data.js",
+    "import:blocklists": "node scripts/import-public-blocklists.js",
+    "generate:mirror-snapshot": "node scripts/generate-mirrored-snapshot.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

@@ -3,29 +3,205 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>zip-studio-public</title>
-    <link rel="stylesheet" href="../site.css" />
+    <title>Universal File Studio</title>
+    <meta
+      name="description"
+      content="Upload, view, edit, and export almost any file directly in your browser, with zip browsing, text editing, PDF tools, and media viewers."
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>zip-studio-public</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/zip-studio-public/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-app</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+    <main class="page-shell">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Standalone File Workbench</p>
+          <h1>Upload, view, edit, and export almost any file format.</h1>
+          <p class="lede">
+            Zip archives stay browsable, plain text stays editable, PDFs get a proper document
+            viewer, images and videos get native previews, and everything else still has a safe
+            binary fallback.
+          </p>
+
+          <div class="hero-actions">
+            <label class="primary-button upload-button">
+              <input id="file-input" type="file" />
+              <span id="upload-label">Choose file</span>
+            </label>
+            <button id="download-button" class="secondary-button" type="button" disabled>
+              Download edited file
+            </button>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/zip-studio-public">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+
+        <div class="hero-metrics">
+          <article class="metric-card">
+            <span>Status</span>
+            <strong id="status-text">Upload any file to begin.</strong>
+          </article>
+          <article class="metric-card">
+            <span>Formats</span>
+            <strong>Zip, text, PDF, image, video, hex</strong>
+          </article>
+          <article class="metric-card">
+            <span>Current file</span>
+            <strong id="summary-primary">Nothing loaded</strong>
+            <small id="summary-secondary">The viewer will update here once a file is opened.</small>
+          </article>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/zip-studio-public/</p>
+      </section>
+
+      <p id="error-banner" class="error-banner" hidden></p>
+
+      <section id="empty-state" class="panel-card empty-state">
+        <h2>Ready for input</h2>
+        <p>Select any file to open it in zip, text, or hex mode.</p>
+      </section>
+
+      <section id="standalone-panel" class="panel-card editor-panel" hidden>
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">File Editor</p>
+            <h2 id="standalone-title"></h2>
+          </div>
+          <p id="standalone-meta" class="microcopy">Download exports the current file using the same file name.</p>
+        </div>
+
+        <div id="standalone-toolbar" class="mode-toolbar" hidden>
+          <span id="mode-badge" class="mode-badge">mode</span>
+          <div id="pdf-toolbar" class="toolbar-group" hidden>
+            <button id="pdf-add-highlight" class="secondary-button" type="button">Highlight</button>
+            <button id="pdf-add-note" class="secondary-button" type="button">Note</button>
+            <button id="pdf-rotate-page" class="secondary-button" type="button">Rotate page</button>
+            <button id="pdf-move-page-up" class="secondary-button" type="button">Move up</button>
+            <button id="pdf-move-page-down" class="secondary-button" type="button">Move down</button>
+            <button id="pdf-remove-page" class="secondary-button" type="button">Remove page</button>
+          </div>
+          <div id="media-toolbar" class="toolbar-group" hidden>
+            <button id="replace-file-button" class="secondary-button" type="button">Replace file</button>
+          </div>
+        </div>
+
+        <textarea id="text-editor" class="editor" spellcheck="false" hidden></textarea>
+        <textarea id="hex-editor" class="editor editor--hex" spellcheck="false" hidden></textarea>
+
+        <section id="pdf-viewer" class="pdf-shell" hidden>
+          <aside class="pdf-sidebar">
+            <div class="pdf-sidebar-copy">
+              <h3>Pages</h3>
+              <p id="pdf-sidebar-meta" class="microcopy">Select a page to inspect it.</p>
+            </div>
+            <div id="pdf-page-list" class="pdf-page-list"></div>
+          </aside>
+          <div class="pdf-main">
+            <div id="pdf-stage" class="pdf-stage">
+              <div id="pdf-stage-empty" class="readonly-panel centered">
+                <h3>No page selected</h3>
+                <p>Choose a page from the left to preview and annotate it.</p>
+              </div>
+              <div id="pdf-page-frame" class="pdf-page-frame" hidden>
+                <div class="pdf-page-header">
+                  <h3 id="pdf-page-title">Page 1</h3>
+                  <p id="pdf-page-meta" class="microcopy"></p>
+                </div>
+                <div id="pdf-canvas-wrap" class="pdf-canvas-wrap">
+                  <canvas id="pdf-canvas"></canvas>
+                  <div id="pdf-annotation-layer" class="pdf-annotation-layer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="image-viewer" class="media-shell" hidden>
+          <div class="media-meta-grid">
+            <article class="metric-card">
+              <span>Type</span>
+              <strong id="image-type">Image</strong>
+            </article>
+            <article class="metric-card">
+              <span>Dimensions</span>
+              <strong id="image-dimensions">-</strong>
+            </article>
+            <article class="metric-card">
+              <span>Size</span>
+              <strong id="image-size">-</strong>
+            </article>
+          </div>
+          <div class="media-preview-shell">
+            <img id="image-preview" class="media-preview" alt="Uploaded preview" />
+          </div>
+        </section>
+
+        <section id="video-viewer" class="media-shell" hidden>
+          <div class="media-meta-grid">
+            <article class="metric-card">
+              <span>Type</span>
+              <strong id="video-type">Video</strong>
+            </article>
+            <article class="metric-card">
+              <span>Duration</span>
+              <strong id="video-duration">Loading...</strong>
+            </article>
+            <article class="metric-card">
+              <span>Size</span>
+              <strong id="video-size">-</strong>
+            </article>
+          </div>
+          <div class="media-preview-shell">
+            <video id="video-preview" class="media-preview media-preview--video" controls></video>
+          </div>
+        </section>
+
+        <div id="fallback-panel" class="readonly-panel centered" hidden>
+          <h3 id="fallback-title">Fallback mode</h3>
+          <p id="fallback-copy">This file is using the binary fallback viewer.</p>
+          <pre id="fallback-size"></pre>
+        </div>
+      </section>
+
+      <section id="zip-panel" class="workspace-grid" hidden>
+        <aside class="panel-card sidebar-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Archive Explorer</p>
+              <h2 id="zip-title"></h2>
+            </div>
+            <p class="microcopy">
+              Editable text-like entries open on the right. Binary entries stay preserved during
+              export.
+            </p>
+          </div>
+          <div id="entry-list" class="entry-list"></div>
+        </aside>
+
+        <section class="panel-card editor-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Selected Entry</p>
+              <h2 id="entry-title">No file selected</h2>
+            </div>
+            <p id="entry-meta" class="microcopy">Choose an archive item to inspect it.</p>
+          </div>
+
+          <textarea id="zip-editor" class="editor" spellcheck="false" hidden></textarea>
+
+          <div id="readonly-panel" class="readonly-panel">
+            <h3 id="readonly-title">Select a file from the archive</h3>
+            <p id="readonly-copy">Choose an item from the left to inspect or edit it.</p>
+            <pre id="readonly-size" hidden></pre>
+          </div>
+        </section>
       </section>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script src="./viewer-utils.js"></script>
+    <script src="./pdf-tools.js"></script>
+    <script src="./app.js"></script>
   </body>
-</html>
+  </html>
