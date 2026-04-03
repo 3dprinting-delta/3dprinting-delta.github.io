@@ -1,0 +1,1278 @@
+{
+  "generatedAt": "2026-03-31T03:59:12.991Z",
+  "startYear": -3800,
+  "endYear": 1699,
+  "historyStartYear": -220000,
+  "historyEndYear": 1699,
+  "historyStartReason": "This branch begins with anatomically early humans and preserves a long prehistory before institutional divergence.",
+  "firstSettlementYear": -3800,
+  "firstSettlementReason": "The interactive branch timeline begins with the first durable settlements that can support knowledge exchange.",
+  "interactiveStartYear": -3800,
+  "authoredStartYear": 1439,
+  "authoredEndYear": 1699,
+  "model": {
+    "startSeaLevel": 0,
+    "climateBias": -0.4,
+    "settlementMean": 0.366,
+    "hydrologyMean": 0.419,
+    "iceBase": 0.764
+  },
+  "count": 5500,
+  "availableYearCount": 114,
+  "years": [
+    {
+      "year": -3800,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3800.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3800/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3800/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3800/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3750,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3750.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3750/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3750/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3750/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3700,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3700.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3700/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3700/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3700/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3650,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3600,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3550,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3500,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3450,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3050,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3050.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3050/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3050/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3050/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -3000,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-3000.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-3000/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-3000/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-3000/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2950,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2950.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2950/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2950/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2950/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2900,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2900.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2900/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2900/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2900/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2850,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2850.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2850/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2850/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2850/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2800,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2800.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2800/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2800/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2800/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2750,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2750.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2750/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2750/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2750/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2700,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2700.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2700/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2700/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2700/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2650,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2600,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2550,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2500,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2450,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2050,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2050.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2050/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2050/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2050/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -2000,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-2000.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-2000/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-2000/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-2000/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1950,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1950.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1950/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1950/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1950/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1900,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1900.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1900/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1900/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1900/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1850,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1850.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1850/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1850/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1850/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1800,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1800.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1800/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1800/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1800/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1750,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1750.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1750/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1750/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1750/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1700,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1700.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1700/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1700/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1700/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1650,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1600,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1550,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1500,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1450,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1050,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1050.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1050/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1050/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1050/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -1000,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-1000.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-1000/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-1000/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-1000/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -950,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-950.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-950/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-950/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-950/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -900,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-900.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-900/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-900/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-900/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -850,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-850.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-850/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-850/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-850/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -800,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-800.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-800/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-800/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-800/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -750,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-750.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-750/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-750/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-750/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -700,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-700.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-700/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-700/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-700/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -650,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -600,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -550,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -500,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -450,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": -50,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/-50.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/-50/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/-50/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/-50/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 0,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/0.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/0/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/0/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/0/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 50,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/50.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/50/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/50/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/50/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 450,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 500,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 550,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 600,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 650,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 700,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/700.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/700/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/700/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/700/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 750,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/750.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/750/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/750/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/750/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 800,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/800.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/800/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/800/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/800/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 850,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/850.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/850/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/850/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/850/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 900,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/900.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/900/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/900/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/900/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 950,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/950.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/950/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/950/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/950/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1000,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1000.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1000/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1000/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1000/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1050,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1050.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1050/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1050/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1050/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1100,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1100.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1100/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1100/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1100/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1150,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1150.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1150/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1150/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1150/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1200,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1200.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1200/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1200/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1200/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1250,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1250.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1250/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1250/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1250/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1300,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1300.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1300/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1300/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1300/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1350,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1350.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1350/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1350/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1350/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1400,
+      "eraIndex": 0,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1400.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1400/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1400/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1400/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1439,
+      "eraIndex": 0,
+      "nextEraIndex": 1,
+      "path": "./processed/history/years/1439.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1439/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1439/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1439/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1450,
+      "eraIndex": 0,
+      "nextEraIndex": 1,
+      "path": "./processed/history/years/1450.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1450/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1450/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1450/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1479,
+      "eraIndex": 0,
+      "nextEraIndex": 1,
+      "path": "./processed/history/years/1479.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1479/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1479/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1479/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1500,
+      "eraIndex": 1,
+      "nextEraIndex": 2,
+      "path": "./processed/history/years/1500.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1500/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1500/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1500/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1550,
+      "eraIndex": 1,
+      "nextEraIndex": 2,
+      "path": "./processed/history/years/1550.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1550/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1550/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1550/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1559,
+      "eraIndex": 1,
+      "nextEraIndex": 2,
+      "path": "./processed/history/years/1559.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1559/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1559/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1559/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1600,
+      "eraIndex": 2,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1600.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1600/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1600/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1600/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1650,
+      "eraIndex": 2,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1650.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1650/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1650/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1650/settlement/0/0/0.svg"
+      }
+    },
+    {
+      "year": 1699,
+      "eraIndex": 2,
+      "nextEraIndex": 3,
+      "path": "./processed/history/years/1699.json",
+      "tiles": {
+        "surface": "./processed/history/tiles/1699/surface/0/0/0.svg",
+        "climate": "./processed/history/tiles/1699/climate/0/0/0.svg",
+        "settlement": "./processed/history/tiles/1699/settlement/0/0/0.svg"
+      }
+    }
+  ]
+}

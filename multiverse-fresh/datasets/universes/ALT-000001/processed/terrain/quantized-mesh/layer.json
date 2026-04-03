@@ -1,0 +1,14 @@
+{
+  "tilejson": "2.2.0",
+  "format": "quantized-mesh-json-v1",
+  "version": "1.0.0",
+  "scheme": "tms",
+  "tiles": [
+    "./{z}/{x}/{y}.terrain"
+  ],
+  "projection": "EPSG:4326",
+  "extensions": [],
+  "maxzoom": 3,
+  "minzoom": 0,
+  "tileSize": 32
+}

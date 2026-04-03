@@ -1,0 +1,502 @@
+{
+  "seed": 1,
+  "code": "ALT-000001",
+  "title": "Open Printing / Research Commonwealth",
+  "premise": "Seed 1 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Lagos and Arctic Gate.",
+  "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+  "future": "planetary life organizes around public laboratories and restoration charters",
+  "differences": "prestige shifts from scarcity control to openly useful discovery. Terrain, water access, climate patterns, and settlement corridors gradually reorganize around knowledge acceleration.",
+  "vector": "knowledge acceleration",
+  "prompt": "Near-Earth derivative world where trade-port printing spreads before monarchies can lock it down, reshaping Lagos, Arctic Gate, and Amazon Basin, ending in planetary life organizes around public laboratories and restoration charters.",
+  "physicalModel": {
+    "verticalExaggeration": 1.035,
+    "verticalReferenceHeight": 0,
+    "seaLevelShiftMeters": 0,
+    "climateBiasCelsius": -0.4,
+    "baseColor": "#0b213d"
+  },
+  "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+  "hotspots": [
+    {
+      "name": "Lagos",
+      "lat": 6.5,
+      "lng": -0.8000000000000003,
+      "detail": "Lagos is the first region where the new branch stabilizes."
+    },
+    {
+      "name": "Arctic Gate",
+      "lat": 80.2,
+      "lng": 23.8,
+      "detail": "Arctic Gate becomes the large-scale systems hinge of this universe."
+    },
+    {
+      "name": "Amazon Basin",
+      "lat": -6.4,
+      "lng": -71.2,
+      "detail": "Amazon Basin shows the late-stage consequence of the divergence."
+    }
+  ],
+  "eras": [
+    {
+      "year": 1439,
+      "title": "Research Commonwealth Origin",
+      "summary": "In 1439, trade-port printing spreads before monarchies can lock it down.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Global orbit",
+      "altitude": 18000000
+    },
+    {
+      "year": 1479,
+      "title": "Research Commonwealth Expansion",
+      "summary": "knowledge acceleration reshapes the planet by 1479.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Continental sweep",
+      "altitude": 9000000
+    },
+    {
+      "year": 1559,
+      "title": "Research Commonwealth Realignment",
+      "summary": "knowledge acceleration reshapes the planet by 1559.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Regional scan",
+      "altitude": 5000000
+    },
+    {
+      "year": 1699,
+      "title": "Research Commonwealth Far Future",
+      "summary": "knowledge acceleration reshapes the planet by 1699.",
+      "future": "The branch culminates in planetary life organizes around public laboratories and restoration charters.",
+      "camera": "Lower atmosphere pass",
+      "altitude": 2600000
+    }
+  ],
+  "layers": {
+    "surface": {
+      "id": "surface",
+      "label": "Surface",
+      "description": "Near-Earth derivative color surface.",
+      "template": "./datasets/universes/ALT-000001/layers/surface/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "elevation": {
+      "id": "elevation",
+      "label": "Elevation",
+      "description": "Prepared elevation shading and relief.",
+      "template": "./datasets/universes/ALT-000001/layers/elevation/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "climate": {
+      "id": "climate",
+      "label": "Climate",
+      "description": "Temperature and precipitation bands.",
+      "template": "./datasets/universes/ALT-000001/layers/climate/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "biomes": {
+      "id": "biomes",
+      "label": "Biomes",
+      "description": "Biome classification and ecological zones.",
+      "template": "./datasets/universes/ALT-000001/layers/biomes/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "hydrology": {
+      "id": "hydrology",
+      "label": "Hydrology",
+      "description": "Ocean, river, and watershed structures.",
+      "template": "./datasets/universes/ALT-000001/layers/hydrology/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "settlement": {
+      "id": "settlement",
+      "label": "Settlement",
+      "description": "Inferred settlement corridors and city systems.",
+      "template": "./datasets/universes/ALT-000001/layers/settlement/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    }
+  },
+  "visualProfile": {
+    "vector": "knowledge acceleration",
+    "generatedFromPrompt": "Near-Earth derivative world where trade-port printing spreads before monarchies can lock it down, reshaping Lagos, Arctic Gate, and Amazon Basin, ending in planetary life organizes around public laboratories and restoration charters.",
+    "palette": {
+      "globeBase": "#0b213d",
+      "atmosphere": "#79cfff",
+      "water": "#56b7ff",
+      "vegetation": "#72d19a",
+      "settlement": "#f7e9a6"
+    },
+    "eraStates": [
+      {
+        "year": 1439,
+        "globe": {
+          "baseColor": "#183654",
+          "atmosphereTint": "#89d5ff",
+          "fogTint": "#6dc7ff",
+          "hueShift": -0.022,
+          "saturationShift": 0.08,
+          "brightnessShift": 0.03,
+          "fogDensity": 0.00017,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.22,
+              "gamma": 0.95,
+              "hue": -0.01
+            },
+            "elevation": {
+              "alpha": 0.28,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.38,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.28,
+              "gamma": 1,
+              "hue": -0.004
+            },
+            "biomes": {
+              "alpha": 0.24,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.18,
+              "gamma": 1,
+              "hue": -0.003
+            },
+            "hydrology": {
+              "alpha": 0.34,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.18,
+              "gamma": 1,
+              "hue": -0.02
+            },
+            "settlement": {
+              "alpha": 0.36,
+              "brightness": 1.08,
+              "contrast": 1.12,
+              "saturation": 1.12,
+              "gamma": 0.95,
+              "hue": -0.005
+            }
+          }
+        },
+        "local": {
+          "accent": "#88d2f4",
+          "road": "#a3cbe6",
+          "hub": "#f8edb4",
+          "facade": "#9cc8ec",
+          "roof": "#dceffb",
+          "parcel": "#3e5d86",
+          "plaza": "#e1e9ea",
+          "water": "#69c0ff",
+          "greenery": "#73d1a2",
+          "transit": "#98eef9",
+          "landmark": "#fef1b4",
+          "glow": 0.2,
+          "roadGlow": 0.16,
+          "buildingAlpha": 0.62,
+          "sceneMood": "By 1439, the branch is visibly reorganizing streets, blocks, and civic space around knowledge acceleration.",
+          "infrastructureMix": 0.16
+        }
+      },
+      {
+        "year": 1479,
+        "globe": {
+          "baseColor": "#204363",
+          "atmosphereTint": "#8dd6ff",
+          "fogTint": "#6dc7ff",
+          "hueShift": -0.012,
+          "saturationShift": 0.107,
+          "brightnessShift": 0.047,
+          "fogDensity": 0.000153,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.067,
+              "contrast": 1.16,
+              "saturation": 1.28,
+              "gamma": 0.977,
+              "hue": -0.003
+            },
+            "elevation": {
+              "alpha": 0.307,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.32,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.22,
+              "gamma": 1,
+              "hue": -0.004
+            },
+            "biomes": {
+              "alpha": 0.28,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.227,
+              "gamma": 1,
+              "hue": -0.003
+            },
+            "hydrology": {
+              "alpha": 0.393,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.213,
+              "gamma": 1,
+              "hue": -0.02
+            },
+            "settlement": {
+              "alpha": 0.44,
+              "brightness": 1.12,
+              "contrast": 1.167,
+              "saturation": 1.193,
+              "gamma": 0.977,
+              "hue": -0.005
+            }
+          }
+        },
+        "local": {
+          "accent": "#8fd4f0",
+          "road": "#a6cce5",
+          "hub": "#f9edb7",
+          "facade": "#9bc8ed",
+          "roof": "#def0fc",
+          "parcel": "#43628a",
+          "plaza": "#e2e9e8",
+          "water": "#6dc1ff",
+          "greenery": "#73d1a2",
+          "transit": "#9ceff9",
+          "landmark": "#fef2b7",
+          "glow": 0.22666666666666668,
+          "roadGlow": 0.2,
+          "buildingAlpha": 0.66,
+          "sceneMood": "By 1479, the branch is visibly reorganizing streets, blocks, and civic space around knowledge acceleration.",
+          "infrastructureMix": 0.267
+        }
+      },
+      {
+        "year": 1559,
+        "globe": {
+          "baseColor": "#284f71",
+          "atmosphereTint": "#90d7ff",
+          "fogTint": "#6dc7ff",
+          "hueShift": -0.002,
+          "saturationShift": 0.133,
+          "brightnessShift": 0.063,
+          "fogDensity": 0.000137,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.093,
+              "contrast": 1.2,
+              "saturation": 1.34,
+              "gamma": 1.003,
+              "hue": 0.003
+            },
+            "elevation": {
+              "alpha": 0.333,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.26,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.16,
+              "gamma": 1,
+              "hue": -0.004
+            },
+            "biomes": {
+              "alpha": 0.32,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.273,
+              "gamma": 1,
+              "hue": -0.003
+            },
+            "hydrology": {
+              "alpha": 0.447,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.247,
+              "gamma": 1,
+              "hue": -0.02
+            },
+            "settlement": {
+              "alpha": 0.52,
+              "brightness": 1.16,
+              "contrast": 1.213,
+              "saturation": 1.267,
+              "gamma": 1.003,
+              "hue": -0.005
+            }
+          }
+        },
+        "local": {
+          "accent": "#96d5eb",
+          "road": "#a8cce3",
+          "hub": "#f9eeba",
+          "facade": "#99c9ee",
+          "roof": "#e0f1fc",
+          "parcel": "#47678f",
+          "plaza": "#e3e9e6",
+          "water": "#70c3ff",
+          "greenery": "#73d1ac",
+          "transit": "#a1eff9",
+          "landmark": "#fef2ba",
+          "glow": 0.34,
+          "roadGlow": 0.24,
+          "buildingAlpha": 0.7,
+          "sceneMood": "By 1559, the branch has fully reorganized its cities around knowledge acceleration.",
+          "infrastructureMix": 0.373
+        }
+      },
+      {
+        "year": 1699,
+        "globe": {
+          "baseColor": "#305c7f",
+          "atmosphereTint": "#94d9ff",
+          "fogTint": "#6dc7ff",
+          "hueShift": 0.008,
+          "saturationShift": 0.16,
+          "brightnessShift": 0.08,
+          "fogDensity": 0.00012,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.12,
+              "contrast": 1.24,
+              "saturation": 1.4,
+              "gamma": 1.03,
+              "hue": 0.01
+            },
+            "elevation": {
+              "alpha": 0.36,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.2,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.1,
+              "gamma": 1,
+              "hue": -0.004
+            },
+            "biomes": {
+              "alpha": 0.36,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.32,
+              "gamma": 1,
+              "hue": -0.003
+            },
+            "hydrology": {
+              "alpha": 0.5,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.28,
+              "gamma": 1,
+              "hue": -0.02
+            },
+            "settlement": {
+              "alpha": 0.6,
+              "brightness": 1.2,
+              "contrast": 1.26,
+              "saturation": 1.34,
+              "gamma": 1.03,
+              "hue": -0.005
+            }
+          }
+        },
+        "local": {
+          "accent": "#9cd6e6",
+          "road": "#abcde1",
+          "hub": "#f9efbd",
+          "facade": "#98c9ee",
+          "roof": "#e2f2fc",
+          "parcel": "#4b6c94",
+          "plaza": "#e3e9e4",
+          "water": "#74c5ff",
+          "greenery": "#73d1ac",
+          "transit": "#a5f0fa",
+          "landmark": "#fef3bd",
+          "glow": 0.34,
+          "roadGlow": 0.28,
+          "buildingAlpha": 0.74,
+          "sceneMood": "By 1699, the branch has fully reorganized its cities around knowledge acceleration.",
+          "infrastructureMix": 0.48
+        }
+      }
+    ]
+  },
+  "processing": {
+    "datasetClass": "scientific-derivative-v1",
+    "generatedAt": "2026-03-31T04:23:54.931Z",
+    "grid": {
+      "width": 96,
+      "height": 48,
+      "lonStep": 3.7895,
+      "latStep": 3.8298
+    },
+    "historyRange": {
+      "startYear": -3800,
+      "endYear": 1699,
+      "startReason": "The interactive branch timeline begins with the first durable settlements that can support knowledge exchange.",
+      "historyStartYear": -220000,
+      "historyStartReason": "This branch begins with anatomically early humans and preserves a long prehistory before institutional divergence.",
+      "authoredStartYear": 1439,
+      "authoredEndYear": 1699
+    },
+    "provenance": {
+      "terrainBaseline": "synthetic-fallback",
+      "climateBaseline": "synthetic-fallback"
+    },
+    "sources": [
+      "synthetic-fallback"
+    ],
+    "products": {
+      "terrainDem": "./processed/terrain/dem-grid.json",
+      "climateFields": "./processed/climate/climate-grid.json",
+      "hydrologyFields": "./processed/hydrology/flow-grid.json",
+      "biomeFields": "./processed/biomes/biome-grid.json",
+      "settlementFields": "./processed/settlement/corridor-grid.json",
+      "localScenes": "./processed/settlement/local-scenes.json",
+      "yearlyIndex": "./processed/history/yearly-index.json",
+      "riverNetwork": "./processed/hydrology/river-network.json",
+      "terrainQuantizedMeshLayer": "./processed/terrain/quantized-mesh/layer.json",
+      "terrainQuantizedMeshTiles": "./processed/terrain/quantized-mesh/{z}/{x}/{y}.terrain",
+      "terrainDebugHeightTiles": "./processed/terrain/debug-heightmap/{z}/{x}/{y}.json"
+    },
+    "terrainTiling": {
+      "format": "quantized-mesh-json-v1",
+      "tilingScheme": "geographic",
+      "minZoom": 0,
+      "maxZoom": 3,
+      "tileSize": 32
+    }
+  }
+}

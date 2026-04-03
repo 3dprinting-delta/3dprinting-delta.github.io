@@ -1,0 +1,11 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1024">
+          <rect width="2048" height="1024" fill="#0d2124"/>
+          <g opacity="0.0336">
+            <circle cx="332" cy="344" r="7.4" fill="#f6ffc2"/>
+            <circle cx="882" cy="418" r="6.26" fill="#f6ffc2"/>
+            <circle cx="1398" cy="304" r="6.12" fill="#f6ffc2"/>
+            <path d="M332 344L882 418" stroke="#dbf8c3" stroke-width="1.495" opacity="0.4"/>
+          </g>
+        </svg>
+      

@@ -1,0 +1,140 @@
+{
+  "year": 1481,
+  "eraIndex": 1,
+  "nextEraIndex": 2,
+  "phase": "Research Commonwealth Expansion -> Research Commonwealth Realignment",
+  "progress": 0.9603564284415348,
+  "civilizationStage": "industrial",
+  "civilizationStageLabel": "Industrial",
+  "builtEnvironmentLevel": 4,
+  "detailMode": "street",
+  "allowStreetMode": true,
+  "branchOverrideReason": "Accelerated learning systems and coordinated institutions pull advanced settlement forms earlier than baseline history.",
+  "historyStartYear": -220000,
+  "historyEndYear": 1699,
+  "historyStartReason": "This branch begins with anatomically early humans and preserves a long prehistory before institutional divergence.",
+  "firstSettlementYear": -3800,
+  "firstSettlementReason": "The interactive branch timeline begins with the first durable settlements that can support knowledge exchange.",
+  "summary": "In 1481, knowledge acceleration is in an industrial stage, with a warmer atmosphere, higher coastlines, 52% vegetation vitality, and 58% settlement intensity relative to the branch baseline.",
+  "systems": {
+    "atmosphere": {
+      "temperatureAnomalyC": 1.05,
+      "aerosolIndex": 0.244,
+      "cloudCover": 0.491,
+      "stormEnergyIndex": 0.653
+    },
+    "ocean": {
+      "seaLevelMeters": 3.68,
+      "surfaceTempAnomalyC": 0.65,
+      "currentIntensityIndex": 0.692,
+      "salinityShiftIndex": 0.035
+    },
+    "landUse": {
+      "cultivatedShare": 0.28,
+      "urbanShare": 0.18,
+      "restorationShare": 0.169,
+      "extractionShare": 0.189
+    },
+    "vegetation": {
+      "vitalityIndex": 0.518,
+      "forestCoverShare": 0.434,
+      "cropDiversityIndex": 0.282
+    },
+    "ice": {
+      "polarExtentIndex": 0.559,
+      "glacierMassIndex": 0.552,
+      "albedoIndex": 0.506
+    },
+    "settlement": {
+      "intensityIndex": 0.577,
+      "connectivityIndex": 0.443,
+      "coastalUrbanShare": 0.165,
+      "orbitalInfrastructureIndex": 0.017
+    }
+  },
+  "tiles": {
+    "surface": "./processed/history/tiles/1481/surface/0/0/0.svg",
+    "climate": "./processed/history/tiles/1481/climate/0/0/0.svg",
+    "settlement": "./processed/history/tiles/1481/settlement/0/0/0.svg"
+  },
+  "render": {
+    "year": 1481,
+    "globe": {
+      "baseColor": "#204363",
+      "atmosphereTint": "#8dd6ff",
+      "fogTint": "#6dc7ff",
+      "hueShift": -0.012,
+      "saturationShift": 0.108,
+      "brightnessShift": 0.047,
+      "fogDensity": 0.000153,
+      "layerStyles": {
+        "surface": {
+          "alpha": 1,
+          "brightness": 1.068,
+          "contrast": 1.161,
+          "saturation": 1.282,
+          "gamma": 0.978,
+          "hue": -0.003
+        },
+        "elevation": {
+          "alpha": 0.308,
+          "brightness": 1.04,
+          "contrast": 1.12,
+          "saturation": 1.02,
+          "gamma": 1,
+          "hue": 0
+        },
+        "climate": {
+          "alpha": 0.319,
+          "brightness": 1.03,
+          "contrast": 1.05,
+          "saturation": 1.218,
+          "gamma": 1,
+          "hue": -0.004
+        },
+        "biomes": {
+          "alpha": 0.281,
+          "brightness": 1.02,
+          "contrast": 1.08,
+          "saturation": 1.228,
+          "gamma": 1,
+          "hue": -0.003
+        },
+        "hydrology": {
+          "alpha": 0.394,
+          "brightness": 1.06,
+          "contrast": 1.12,
+          "saturation": 1.214,
+          "gamma": 1,
+          "hue": -0.02
+        },
+        "settlement": {
+          "alpha": 0.295,
+          "brightness": 1.121,
+          "contrast": 1.168,
+          "saturation": 1.195,
+          "gamma": 0.978,
+          "hue": -0.005
+        }
+      }
+    },
+    "local": {
+      "accent": "#8fd4f0",
+      "road": "#a6cce5",
+      "hub": "#f9edb7",
+      "facade": "#9bc8ed",
+      "roof": "#def0fc",
+      "parcel": "#43628a",
+      "plaza": "#e2e9e8",
+      "water": "#6dc1ff",
+      "greenery": "#73d1a2",
+      "transit": "#9ceff9",
+      "landmark": "#fef2b7",
+      "glow": 0.23,
+      "roadGlow": 0.201,
+      "buildingAlpha": 0.441,
+      "infrastructureMix": 0.18,
+      "sceneMood": "By 1479, the branch is visibly reorganizing streets, blocks, and civic space around knowledge acceleration."
+    }
+  }
+}

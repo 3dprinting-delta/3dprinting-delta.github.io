@@ -1,0 +1,694 @@
+{
+  "format": "heightmap-json-v1",
+  "tilingScheme": "geographic",
+  "minZoom": 0,
+  "maxZoom": 3,
+  "tileSize": 32,
+  "template": "./processed/terrain/tiles/{z}/{x}/{y}.json",
+  "stats": {
+    "minElevationMeters": -1527,
+    "maxElevationMeters": 3394
+  },
+  "tiles": [
+    {
+      "z": 0,
+      "x": 0,
+      "y": 0,
+      "path": "./processed/terrain/tiles/0/0/0.json",
+      "minElevationMeters": -1257,
+      "maxElevationMeters": 2774
+    },
+    {
+      "z": 1,
+      "x": 0,
+      "y": 0,
+      "path": "./processed/terrain/tiles/1/0/0.json",
+      "minElevationMeters": -1285,
+      "maxElevationMeters": 2197
+    },
+    {
+      "z": 1,
+      "x": 0,
+      "y": 1,
+      "path": "./processed/terrain/tiles/1/0/1.json",
+      "minElevationMeters": -1049,
+      "maxElevationMeters": 2284
+    },
+    {
+      "z": 1,
+      "x": 1,
+      "y": 0,
+      "path": "./processed/terrain/tiles/1/1/0.json",
+      "minElevationMeters": -1257,
+      "maxElevationMeters": 1876
+    },
+    {
+      "z": 1,
+      "x": 1,
+      "y": 1,
+      "path": "./processed/terrain/tiles/1/1/1.json",
+      "minElevationMeters": -1089,
+      "maxElevationMeters": 2774
+    },
+    {
+      "z": 2,
+      "x": 0,
+      "y": 0,
+      "path": "./processed/terrain/tiles/2/0/0.json",
+      "minElevationMeters": -1071,
+      "maxElevationMeters": 2404
+    },
+    {
+      "z": 2,
+      "x": 0,
+      "y": 1,
+      "path": "./processed/terrain/tiles/2/0/1.json",
+      "minElevationMeters": -1285,
+      "maxElevationMeters": 1918
+    },
+    {
+      "z": 2,
+      "x": 0,
+      "y": 2,
+      "path": "./processed/terrain/tiles/2/0/2.json",
+      "minElevationMeters": -884,
+      "maxElevationMeters": 2173
+    },
+    {
+      "z": 2,
+      "x": 0,
+      "y": 3,
+      "path": "./processed/terrain/tiles/2/0/3.json",
+      "minElevationMeters": -1049,
+      "maxElevationMeters": 2657
+    },
+    {
+      "z": 2,
+      "x": 1,
+      "y": 0,
+      "path": "./processed/terrain/tiles/2/1/0.json",
+      "minElevationMeters": -1076,
+      "maxElevationMeters": 1841
+    },
+    {
+      "z": 2,
+      "x": 1,
+      "y": 1,
+      "path": "./processed/terrain/tiles/2/1/1.json",
+      "minElevationMeters": -732,
+      "maxElevationMeters": 2063
+    },
+    {
+      "z": 2,
+      "x": 1,
+      "y": 2,
+      "path": "./processed/terrain/tiles/2/1/2.json",
+      "minElevationMeters": -950,
+      "maxElevationMeters": 1780
+    },
+    {
+      "z": 2,
+      "x": 1,
+      "y": 3,
+      "path": "./processed/terrain/tiles/2/1/3.json",
+      "minElevationMeters": -795,
+      "maxElevationMeters": 1900
+    },
+    {
+      "z": 2,
+      "x": 2,
+      "y": 0,
+      "path": "./processed/terrain/tiles/2/2/0.json",
+      "minElevationMeters": -848,
+      "maxElevationMeters": 1741
+    },
+    {
+      "z": 2,
+      "x": 2,
+      "y": 1,
+      "path": "./processed/terrain/tiles/2/2/1.json",
+      "minElevationMeters": -795,
+      "maxElevationMeters": 1866
+    },
+    {
+      "z": 2,
+      "x": 2,
+      "y": 2,
+      "path": "./processed/terrain/tiles/2/2/2.json",
+      "minElevationMeters": -956,
+      "maxElevationMeters": 1619
+    },
+    {
+      "z": 2,
+      "x": 2,
+      "y": 3,
+      "path": "./processed/terrain/tiles/2/2/3.json",
+      "minElevationMeters": -986,
+      "maxElevationMeters": 2162
+    },
+    {
+      "z": 2,
+      "x": 3,
+      "y": 0,
+      "path": "./processed/terrain/tiles/2/3/0.json",
+      "minElevationMeters": -1257,
+      "maxElevationMeters": 1946
+    },
+    {
+      "z": 2,
+      "x": 3,
+      "y": 1,
+      "path": "./processed/terrain/tiles/2/3/1.json",
+      "minElevationMeters": -1100,
+      "maxElevationMeters": 1876
+    },
+    {
+      "z": 2,
+      "x": 3,
+      "y": 2,
+      "path": "./processed/terrain/tiles/2/3/2.json",
+      "minElevationMeters": -1045,
+      "maxElevationMeters": 1891
+    },
+    {
+      "z": 2,
+      "x": 3,
+      "y": 3,
+      "path": "./processed/terrain/tiles/2/3/3.json",
+      "minElevationMeters": -1091,
+      "maxElevationMeters": 3260
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/0/0.json",
+      "minElevationMeters": -1162,
+      "maxElevationMeters": 2404
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/0/1.json",
+      "minElevationMeters": -774,
+      "maxElevationMeters": 1906
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/0/2.json",
+      "minElevationMeters": -823,
+      "maxElevationMeters": 1918
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/0/3.json",
+      "minElevationMeters": -1285,
+      "maxElevationMeters": 1839
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/0/4.json",
+      "minElevationMeters": -884,
+      "maxElevationMeters": 2191
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/0/5.json",
+      "minElevationMeters": -700,
+      "maxElevationMeters": 2173
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/0/6.json",
+      "minElevationMeters": -1077,
+      "maxElevationMeters": 1870
+    },
+    {
+      "z": 3,
+      "x": 0,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/0/7.json",
+      "minElevationMeters": -1049,
+      "maxElevationMeters": 2657
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/1/0.json",
+      "minElevationMeters": -705,
+      "maxElevationMeters": 2372
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/1/1.json",
+      "minElevationMeters": -1038,
+      "maxElevationMeters": 1580
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/1/2.json",
+      "minElevationMeters": -901,
+      "maxElevationMeters": 1846
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/1/3.json",
+      "minElevationMeters": -1245,
+      "maxElevationMeters": 1379
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/1/4.json",
+      "minElevationMeters": -884,
+      "maxElevationMeters": 2149
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/1/5.json",
+      "minElevationMeters": -816,
+      "maxElevationMeters": 1278
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/1/6.json",
+      "minElevationMeters": -888,
+      "maxElevationMeters": 2391
+    },
+    {
+      "z": 3,
+      "x": 1,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/1/7.json",
+      "minElevationMeters": -1099,
+      "maxElevationMeters": 1922
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/2/0.json",
+      "minElevationMeters": -1025,
+      "maxElevationMeters": 1944
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/2/1.json",
+      "minElevationMeters": -804,
+      "maxElevationMeters": 2023
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/2/2.json",
+      "minElevationMeters": -705,
+      "maxElevationMeters": 1623
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/2/3.json",
+      "minElevationMeters": -747,
+      "maxElevationMeters": 1674
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/2/4.json",
+      "minElevationMeters": -710,
+      "maxElevationMeters": 1724
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/2/5.json",
+      "minElevationMeters": -884,
+      "maxElevationMeters": 1430
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/2/6.json",
+      "minElevationMeters": -797,
+      "maxElevationMeters": 1900
+    },
+    {
+      "z": 3,
+      "x": 2,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/2/7.json",
+      "minElevationMeters": -663,
+      "maxElevationMeters": 1965
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/3/0.json",
+      "minElevationMeters": -1076,
+      "maxElevationMeters": 1592
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/3/1.json",
+      "minElevationMeters": -997,
+      "maxElevationMeters": 1106
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/3/2.json",
+      "minElevationMeters": -719,
+      "maxElevationMeters": 2082
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/3/3.json",
+      "minElevationMeters": -603,
+      "maxElevationMeters": 1602
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/3/4.json",
+      "minElevationMeters": -950,
+      "maxElevationMeters": 2000
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/3/5.json",
+      "minElevationMeters": -746,
+      "maxElevationMeters": 1549
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/3/6.json",
+      "minElevationMeters": -901,
+      "maxElevationMeters": 1490
+    },
+    {
+      "z": 3,
+      "x": 3,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/3/7.json",
+      "minElevationMeters": -753,
+      "maxElevationMeters": 1606
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/4/0.json",
+      "minElevationMeters": -781,
+      "maxElevationMeters": 2055
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/4/1.json",
+      "minElevationMeters": -788,
+      "maxElevationMeters": 1474
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/4/2.json",
+      "minElevationMeters": -675,
+      "maxElevationMeters": 1531
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/4/3.json",
+      "minElevationMeters": -595,
+      "maxElevationMeters": 1873
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/4/4.json",
+      "minElevationMeters": -647,
+      "maxElevationMeters": 1796
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/4/5.json",
+      "minElevationMeters": -804,
+      "maxElevationMeters": 2034
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/4/6.json",
+      "minElevationMeters": -986,
+      "maxElevationMeters": 1818
+    },
+    {
+      "z": 3,
+      "x": 4,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/4/7.json",
+      "minElevationMeters": -830,
+      "maxElevationMeters": 2162
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/5/0.json",
+      "minElevationMeters": -850,
+      "maxElevationMeters": 1759
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/5/1.json",
+      "minElevationMeters": -561,
+      "maxElevationMeters": 1504
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/5/2.json",
+      "minElevationMeters": -870,
+      "maxElevationMeters": 1369
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/5/3.json",
+      "minElevationMeters": -857,
+      "maxElevationMeters": 1744
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/5/4.json",
+      "minElevationMeters": -641,
+      "maxElevationMeters": 1657
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/5/5.json",
+      "minElevationMeters": -972,
+      "maxElevationMeters": 1099
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/5/6.json",
+      "minElevationMeters": -896,
+      "maxElevationMeters": 1592
+    },
+    {
+      "z": 3,
+      "x": 5,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/5/7.json",
+      "minElevationMeters": -784,
+      "maxElevationMeters": 1844
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/6/0.json",
+      "minElevationMeters": -853,
+      "maxElevationMeters": 2098
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/6/1.json",
+      "minElevationMeters": -596,
+      "maxElevationMeters": 1622
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/6/2.json",
+      "minElevationMeters": -744,
+      "maxElevationMeters": 1381
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/6/3.json",
+      "minElevationMeters": -707,
+      "maxElevationMeters": 1604
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/6/4.json",
+      "minElevationMeters": -991,
+      "maxElevationMeters": 1779
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/6/5.json",
+      "minElevationMeters": -1045,
+      "maxElevationMeters": 1411
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/6/6.json",
+      "minElevationMeters": -1054,
+      "maxElevationMeters": 1732
+    },
+    {
+      "z": 3,
+      "x": 6,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/6/7.json",
+      "minElevationMeters": -1091,
+      "maxElevationMeters": 2120
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 0,
+      "path": "./processed/terrain/tiles/3/7/0.json",
+      "minElevationMeters": -1257,
+      "maxElevationMeters": 1946
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 1,
+      "path": "./processed/terrain/tiles/3/7/1.json",
+      "minElevationMeters": -746,
+      "maxElevationMeters": 2476
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 2,
+      "path": "./processed/terrain/tiles/3/7/2.json",
+      "minElevationMeters": -1118,
+      "maxElevationMeters": 2102
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 3,
+      "path": "./processed/terrain/tiles/3/7/3.json",
+      "minElevationMeters": -858,
+      "maxElevationMeters": 2068
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 4,
+      "path": "./processed/terrain/tiles/3/7/4.json",
+      "minElevationMeters": -741,
+      "maxElevationMeters": 1891
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 5,
+      "path": "./processed/terrain/tiles/3/7/5.json",
+      "minElevationMeters": -1075,
+      "maxElevationMeters": 1344
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 6,
+      "path": "./processed/terrain/tiles/3/7/6.json",
+      "minElevationMeters": -1139,
+      "maxElevationMeters": 2639
+    },
+    {
+      "z": 3,
+      "x": 7,
+      "y": 7,
+      "path": "./processed/terrain/tiles/3/7/7.json",
+      "minElevationMeters": -1139,
+      "maxElevationMeters": 3260
+    }
+  ]
+}

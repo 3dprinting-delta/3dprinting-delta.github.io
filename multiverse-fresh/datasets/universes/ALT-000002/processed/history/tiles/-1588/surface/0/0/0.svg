@@ -1,0 +1,26 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1024">
+      <defs>
+        <linearGradient id="ocean" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stop-color="#3d8e7f"/>
+          <stop offset="100%" stop-color="#71dbc6"/>
+        </linearGradient>
+        <radialGradient id="atmo" cx="40%" cy="28%" r="74%">
+          <stop offset="0%" stop-color="#8df4cf" stop-opacity="0.532"/>
+          <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="2048" height="1024" fill="url(#ocean)"/>
+      <rect width="2048" height="1024" fill="url(#atmo)"/>
+      <path d="M208 244C402 132 636 120 828 182C1024 244 1206 210 1452 300C1640 370 1824 472 1964 628L1898 892L110 892Z" fill="#8fe088" opacity="0.916"/>
+      <path d="M92 917C256 859 506 889 702 929C968 983 1238 953 1502 1009C1738 1057 1918 1041 2048 1063V1024H0Z" fill="#82b973" opacity="0.82"/>
+      <path d="M356 126C548 72 822 80 1046 126C1266 172 1478 166 1718 254C1882 316 1984 350 2048 396V486C1840 404 1662 392 1452 370C1246 348 1120 384 906 342C706 304 550 238 388 236C244 234 126 248 0 304V216C110 178 214 154 356 126Z" fill="#7a8454" opacity="0.72"/>
+      <rect x="0" y="73" width="2048" height="246" fill="#e6f7fb" opacity="0.49032000000000003"/>
+      <rect x="0" y="811" width="2048" height="214" fill="#e6f7fb" opacity="0.46308000000000005"/>
+      <g opacity="0.0336">
+        <circle cx="332" cy="344" r="8.120000000000001" fill="#f6ffc2"/>
+        <circle cx="882" cy="418" r="7.162" fill="#f6ffc2"/>
+        <circle cx="1398" cy="304" r="6.98" fill="#f6ffc2"/>
+      </g>
+    </svg>
+  

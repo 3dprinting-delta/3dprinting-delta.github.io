@@ -1,0 +1,502 @@
+{
+  "seed": 2,
+  "code": "ALT-000002",
+  "title": "Battery Leap / Research Commonwealth",
+  "premise": "Seed 2 follows a world where dense storage goes mainstream decades early, spreading first through Arctic Gate and Lagos.",
+  "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+  "future": "planetary life organizes around public laboratories and restoration charters",
+  "differences": "prestige shifts from scarcity control to openly useful discovery. Terrain, water access, climate patterns, and settlement corridors gradually reorganize around distributed energy.",
+  "vector": "distributed energy",
+  "prompt": "Near-Earth derivative world where dense storage goes mainstream decades early, reshaping Arctic Gate, Lagos, and London, ending in planetary life organizes around public laboratories and restoration charters.",
+  "physicalModel": {
+    "verticalExaggeration": 1.035,
+    "verticalReferenceHeight": 0,
+    "seaLevelShiftMeters": 88,
+    "climateBiasCelsius": -1.2000000000000002,
+    "baseColor": "#081f40"
+  },
+  "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters arctic gate lagos london",
+  "hotspots": [
+    {
+      "name": "Arctic Gate",
+      "lat": 80.4,
+      "lng": 15,
+      "detail": "Arctic Gate is the first region where the new branch stabilizes."
+    },
+    {
+      "name": "Lagos",
+      "lat": 4.3,
+      "lng": -5.4,
+      "detail": "Lagos becomes the large-scale systems hinge of this universe."
+    },
+    {
+      "name": "London",
+      "lat": 51.5,
+      "lng": -4.199999999999999,
+      "detail": "London shows the late-stage consequence of the divergence."
+    }
+  ],
+  "eras": [
+    {
+      "year": 1916,
+      "title": "Research Commonwealth Origin",
+      "summary": "In 1916, dense storage goes mainstream decades early.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Global orbit",
+      "altitude": 18000000
+    },
+    {
+      "year": 1956,
+      "title": "Research Commonwealth Expansion",
+      "summary": "distributed energy reshapes the planet by 1956.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Continental sweep",
+      "altitude": 9000000
+    },
+    {
+      "year": 2036,
+      "title": "Research Commonwealth Realignment",
+      "summary": "distributed energy reshapes the planet by 2036.",
+      "future": "prestige shifts from scarcity control to openly useful discovery",
+      "camera": "Regional scan",
+      "altitude": 5000000
+    },
+    {
+      "year": 2176,
+      "title": "Research Commonwealth Far Future",
+      "summary": "distributed energy reshapes the planet by 2176.",
+      "future": "The branch culminates in planetary life organizes around public laboratories and restoration charters.",
+      "camera": "Lower atmosphere pass",
+      "altitude": 2600000
+    }
+  ],
+  "layers": {
+    "surface": {
+      "id": "surface",
+      "label": "Surface",
+      "description": "Near-Earth derivative color surface.",
+      "template": "./datasets/universes/ALT-000002/layers/surface/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "elevation": {
+      "id": "elevation",
+      "label": "Elevation",
+      "description": "Prepared elevation shading and relief.",
+      "template": "./datasets/universes/ALT-000002/layers/elevation/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "climate": {
+      "id": "climate",
+      "label": "Climate",
+      "description": "Temperature and precipitation bands.",
+      "template": "./datasets/universes/ALT-000002/layers/climate/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "biomes": {
+      "id": "biomes",
+      "label": "Biomes",
+      "description": "Biome classification and ecological zones.",
+      "template": "./datasets/universes/ALT-000002/layers/biomes/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "hydrology": {
+      "id": "hydrology",
+      "label": "Hydrology",
+      "description": "Ocean, river, and watershed structures.",
+      "template": "./datasets/universes/ALT-000002/layers/hydrology/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    },
+    "settlement": {
+      "id": "settlement",
+      "label": "Settlement",
+      "description": "Inferred settlement corridors and city systems.",
+      "template": "./datasets/universes/ALT-000002/layers/settlement/{z}/{x}/{y}.svg",
+      "minimumLevel": 0,
+      "maximumLevel": 0
+    }
+  },
+  "visualProfile": {
+    "vector": "distributed energy",
+    "generatedFromPrompt": "Near-Earth derivative world where dense storage goes mainstream decades early, reshaping Arctic Gate, Lagos, and London, ending in planetary life organizes around public laboratories and restoration charters.",
+    "palette": {
+      "globeBase": "#0f2b27",
+      "atmosphere": "#7ef3c8",
+      "water": "#49d1b3",
+      "vegetation": "#92df84",
+      "settlement": "#f4ffb6"
+    },
+    "eraStates": [
+      {
+        "year": 1916,
+        "globe": {
+          "baseColor": "#1c433a",
+          "atmosphereTint": "#8df4cf",
+          "fogTint": "#6be7c1",
+          "hueShift": -0.042,
+          "saturationShift": 0.1,
+          "brightnessShift": 0.02,
+          "fogDensity": 0.00015,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.24,
+              "gamma": 0.95,
+              "hue": -0.03
+            },
+            "elevation": {
+              "alpha": 0.28,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.38,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.28,
+              "gamma": 1,
+              "hue": -0.012
+            },
+            "biomes": {
+              "alpha": 0.24,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.18,
+              "gamma": 1,
+              "hue": -0.009
+            },
+            "hydrology": {
+              "alpha": 0.34,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.18,
+              "gamma": 1,
+              "hue": -0.04
+            },
+            "settlement": {
+              "alpha": 0.36,
+              "brightness": 1.08,
+              "contrast": 1.12,
+              "saturation": 1.12,
+              "gamma": 0.95,
+              "hue": -0.013
+            }
+          }
+        },
+        "local": {
+          "accent": "#8cf4c6",
+          "road": "#a3e3c3",
+          "hub": "#f6ffc2",
+          "facade": "#9ce1c4",
+          "roof": "#dbfff0",
+          "parcel": "#396559",
+          "plaza": "#e9f9da",
+          "water": "#5ed6be",
+          "greenery": "#90e189",
+          "transit": "#9affe0",
+          "landmark": "#f1ffc3",
+          "glow": 0.2,
+          "roadGlow": 0.16,
+          "buildingAlpha": 0.62,
+          "sceneMood": "By 1916, the branch is visibly reorganizing streets, blocks, and civic space around distributed energy.",
+          "infrastructureMix": 0.16
+        }
+      },
+      {
+        "year": 1956,
+        "globe": {
+          "baseColor": "#245246",
+          "atmosphereTint": "#91f5d0",
+          "fogTint": "#6be7c1",
+          "hueShift": -0.032,
+          "saturationShift": 0.127,
+          "brightnessShift": 0.037,
+          "fogDensity": 0.000133,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.067,
+              "contrast": 1.16,
+              "saturation": 1.3,
+              "gamma": 0.977,
+              "hue": -0.023
+            },
+            "elevation": {
+              "alpha": 0.307,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.32,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.22,
+              "gamma": 1,
+              "hue": -0.012
+            },
+            "biomes": {
+              "alpha": 0.28,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.227,
+              "gamma": 1,
+              "hue": -0.009
+            },
+            "hydrology": {
+              "alpha": 0.393,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.213,
+              "gamma": 1,
+              "hue": -0.04
+            },
+            "settlement": {
+              "alpha": 0.44,
+              "brightness": 1.12,
+              "contrast": 1.167,
+              "saturation": 1.193,
+              "gamma": 0.977,
+              "hue": -0.013
+            }
+          }
+        },
+        "local": {
+          "accent": "#92f5c5",
+          "road": "#a5e4c3",
+          "hub": "#f6ffc4",
+          "facade": "#9be2c4",
+          "roof": "#ddfff1",
+          "parcel": "#3e6b5e",
+          "plaza": "#eaf9d9",
+          "water": "#62d7c0",
+          "greenery": "#90e189",
+          "transit": "#9fffe1",
+          "landmark": "#f2ffc5",
+          "glow": 0.22666666666666668,
+          "roadGlow": 0.2,
+          "buildingAlpha": 0.66,
+          "sceneMood": "By 1956, the branch is visibly reorganizing streets, blocks, and civic space around distributed energy.",
+          "infrastructureMix": 0.267
+        }
+      },
+      {
+        "year": 2036,
+        "globe": {
+          "baseColor": "#2d6052",
+          "atmosphereTint": "#94f5d2",
+          "fogTint": "#6be7c1",
+          "hueShift": -0.022,
+          "saturationShift": 0.153,
+          "brightnessShift": 0.053,
+          "fogDensity": 0.000117,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.093,
+              "contrast": 1.2,
+              "saturation": 1.36,
+              "gamma": 1.003,
+              "hue": -0.017
+            },
+            "elevation": {
+              "alpha": 0.333,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.26,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.16,
+              "gamma": 1,
+              "hue": -0.012
+            },
+            "biomes": {
+              "alpha": 0.32,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.273,
+              "gamma": 1,
+              "hue": -0.009
+            },
+            "hydrology": {
+              "alpha": 0.447,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.247,
+              "gamma": 1,
+              "hue": -0.04
+            },
+            "settlement": {
+              "alpha": 0.52,
+              "brightness": 1.16,
+              "contrast": 1.213,
+              "saturation": 1.267,
+              "gamma": 1.003,
+              "hue": -0.013
+            }
+          }
+        },
+        "local": {
+          "accent": "#99f6c4",
+          "road": "#a8e5c2",
+          "hub": "#f6ffc7",
+          "facade": "#9ae2c4",
+          "roof": "#dffff2",
+          "parcel": "#427163",
+          "plaza": "#eaf9d8",
+          "water": "#66d8c2",
+          "greenery": "#8ee390",
+          "transit": "#a3ffe2",
+          "landmark": "#f2ffc8",
+          "glow": 0.34,
+          "roadGlow": 0.24,
+          "buildingAlpha": 0.7,
+          "sceneMood": "By 2036, the branch has fully reorganized its cities around distributed energy.",
+          "infrastructureMix": 0.373
+        }
+      },
+      {
+        "year": 2176,
+        "globe": {
+          "baseColor": "#356f5e",
+          "atmosphereTint": "#98f5d3",
+          "fogTint": "#6be7c1",
+          "hueShift": -0.012,
+          "saturationShift": 0.18,
+          "brightnessShift": 0.07,
+          "fogDensity": 0.0001,
+          "layerStyles": {
+            "surface": {
+              "alpha": 1,
+              "brightness": 1.12,
+              "contrast": 1.24,
+              "saturation": 1.42,
+              "gamma": 1.03,
+              "hue": -0.01
+            },
+            "elevation": {
+              "alpha": 0.36,
+              "brightness": 1.04,
+              "contrast": 1.12,
+              "saturation": 1.02,
+              "gamma": 1,
+              "hue": 0
+            },
+            "climate": {
+              "alpha": 0.2,
+              "brightness": 1.03,
+              "contrast": 1.05,
+              "saturation": 1.1,
+              "gamma": 1,
+              "hue": -0.012
+            },
+            "biomes": {
+              "alpha": 0.36,
+              "brightness": 1.02,
+              "contrast": 1.08,
+              "saturation": 1.32,
+              "gamma": 1,
+              "hue": -0.009
+            },
+            "hydrology": {
+              "alpha": 0.5,
+              "brightness": 1.06,
+              "contrast": 1.12,
+              "saturation": 1.28,
+              "gamma": 1,
+              "hue": -0.04
+            },
+            "settlement": {
+              "alpha": 0.6,
+              "brightness": 1.2,
+              "contrast": 1.26,
+              "saturation": 1.34,
+              "gamma": 1.03,
+              "hue": -0.013
+            }
+          }
+        },
+        "local": {
+          "accent": "#9ff6c3",
+          "road": "#aae6c2",
+          "hub": "#f7ffc9",
+          "facade": "#98e3c4",
+          "roof": "#e1fff3",
+          "parcel": "#477668",
+          "plaza": "#eaf9d7",
+          "water": "#6ad9c4",
+          "greenery": "#8ee390",
+          "transit": "#a8ffe4",
+          "landmark": "#f3ffca",
+          "glow": 0.34,
+          "roadGlow": 0.28,
+          "buildingAlpha": 0.74,
+          "sceneMood": "By 2176, the branch has fully reorganized its cities around distributed energy.",
+          "infrastructureMix": 0.48
+        }
+      }
+    ]
+  },
+  "processing": {
+    "datasetClass": "scientific-derivative-v1",
+    "generatedAt": "2026-03-31T04:23:55.016Z",
+    "grid": {
+      "width": 96,
+      "height": 48,
+      "lonStep": 3.7895,
+      "latStep": 3.8298
+    },
+    "historyRange": {
+      "startYear": -3200,
+      "endYear": 2176,
+      "startReason": "The interactive branch timeline begins at the first lasting settlements rather than at earliest humans.",
+      "historyStartYear": -180000,
+      "historyStartReason": "This branch uses an early-human baseline but reaches complex settlement later through energy-system divergence.",
+      "authoredStartYear": 1916,
+      "authoredEndYear": 2176
+    },
+    "provenance": {
+      "terrainBaseline": "synthetic-fallback",
+      "climateBaseline": "synthetic-fallback"
+    },
+    "sources": [
+      "synthetic-fallback"
+    ],
+    "products": {
+      "terrainDem": "./processed/terrain/dem-grid.json",
+      "climateFields": "./processed/climate/climate-grid.json",
+      "hydrologyFields": "./processed/hydrology/flow-grid.json",
+      "biomeFields": "./processed/biomes/biome-grid.json",
+      "settlementFields": "./processed/settlement/corridor-grid.json",
+      "localScenes": "./processed/settlement/local-scenes.json",
+      "yearlyIndex": "./processed/history/yearly-index.json",
+      "riverNetwork": "./processed/hydrology/river-network.json",
+      "terrainQuantizedMeshLayer": "./processed/terrain/quantized-mesh/layer.json",
+      "terrainQuantizedMeshTiles": "./processed/terrain/quantized-mesh/{z}/{x}/{y}.terrain",
+      "terrainDebugHeightTiles": "./processed/terrain/debug-heightmap/{z}/{x}/{y}.json"
+    },
+    "terrainTiling": {
+      "format": "quantized-mesh-json-v1",
+      "tilingScheme": "geographic",
+      "minZoom": 0,
+      "maxZoom": 3,
+      "tileSize": 32
+    }
+  }
+}

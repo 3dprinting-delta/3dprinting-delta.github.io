@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-03-25T14:55:00.100Z",
+  "datasets": [
+    {
+      "id": "dem_baseline",
+      "kind": "dem",
+      "description": "Local baseline DEM archive for future terrain replacement imports.",
+      "license": "user-supplied",
+      "path": "C:\\geodata\\dem\\baseline-dem.tif",
+      "exists": false,
+      "bytes": 0,
+      "modifiedAt": null,
+      "status": "missing",
+      "importedProducts": []
+    },
+    {
+      "id": "climate_baseline",
+      "kind": "climate",
+      "description": "Local climate baseline archive for future geostack ingestion.",
+      "license": "user-supplied",
+      "path": "C:\\geodata\\climate\\baseline-climate.nc",
+      "exists": false,
+      "bytes": 0,
+      "modifiedAt": null,
+      "status": "missing",
+      "importedProducts": []
+    },
+    {
+      "id": "photogrammetry_catalog",
+      "kind": "photogrammetry",
+      "description": "Optional local 3D or photogrammetry catalog for future replacement layers.",
+      "license": "user-supplied",
+      "path": "C:\\geodata\\photogrammetry\\catalog.json",
+      "exists": false,
+      "bytes": 0,
+      "modifiedAt": null,
+      "status": "missing",
+      "importedProducts": []
+    }
+  ]
+}

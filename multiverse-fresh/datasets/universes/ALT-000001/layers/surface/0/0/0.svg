@@ -1,0 +1,21 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1024">
+      <defs>
+        <linearGradient id="ocean" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stop-color="#0b213d"/>
+          <stop offset="100%" stop-color="#274d63"/>
+        </linearGradient>
+        <radialGradient id="atmo" cx="38%" cy="30%" r="72%">
+          <stop offset="0%" stop-color="#e9b16f" stop-opacity="0.34"/>
+          <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="2048" height="1024" fill="url(#ocean)"/>
+      <rect width="2048" height="1024" fill="url(#atmo)"/>
+      <path d="M232 255C422 142 660 122 830 194C1018 274 1224 212 1436 308C1628 396 1820 466 2010 632L1898 892L96 892Z" fill="#7a5c33" opacity="0.92"/>
+      <path d="M152 502C308 428 494 414 672 450C834 486 1028 558 1208 612C1380 662 1560 650 1762 612C1940 580 2080 650 2048 708V1024H0Z" fill="#8a7445" opacity="0.82"/>
+      <path d="M394 138C580 76 838 72 1014 126C1206 184 1430 160 1658 228C1846 284 2024 318 2048 386V476C1882 402 1690 396 1518 378C1304 354 1164 396 952 358C774 326 602 252 434 242C260 232 126 252 0 304V204C88 180 176 162 282 138Z" fill="#687b3f" opacity="0.7"/>
+      
+      
+    </svg>
+  

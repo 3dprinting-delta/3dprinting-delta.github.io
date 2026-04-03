@@ -1,31 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>multiverse-fresh</title>
-    <link rel="stylesheet" href="../site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altered Earth Atlas</title>
+    <meta
+      name="description"
+      content="A standalone alternate-earth explorer built on a real 3D globe engine."
+    />
+    <link
+      href="https://cesium.com/downloads/cesiumjs/releases/1.139.1/Build/Cesium/Widgets/widgets.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.139.1/Build/Cesium/Cesium.js"></script>
   </head>
   <body>
-    <main class="shell">
+    <main class="page">
       <section class="hero">
-        <span class="eyebrow">GitHub Pages Portfolio</span>
-        <h1>multiverse-fresh</h1>
-        <p>
-          This repository now has a public 3dprinting-delta.github.io/multiverse-fresh/ URL. On GitHub Pages, this project is
-          represented by a branded static page that serves as the public front door for the repo.
-        </p>
-        <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>web-app</p></article>
-          <article class="card"><h2>Publish Mode</h2><p>static_publish</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>GitHub Pages hosts the static public surface only. Full backend behavior, if any, must live elsewhere.</p></article>
+        <div class="hero-copy">
+          <p class="eyebrow">Standalone Multiverse Site</p>
+          <h1>Altered Earth Atlas</h1>
+          <p class="lede">
+            This standalone site now uses a real globe engine. Drag, tilt, zoom, and fly across an
+            alternate Earth branch more like a true Earth browser instead of a simulated panel.
+          </p>
+          <div class="hero-actions">
+            <button id="randomize-button" class="primary-button" type="button">True Randomize</button>
+            <button id="share-button" class="ghost-button" type="button">Copy Share Link</button>
+          </div>
+          <div class="hero-stats">
+            <article class="stat-card">
+              <span>Universe Seed</span>
+              <strong id="seed-display">#1</strong>
+            </article>
+            <article class="stat-card">
+              <span>Camera</span>
+              <strong id="camera-display">Global</strong>
+            </article>
+            <article class="stat-card">
+              <span>Time</span>
+              <strong id="era-display">Origin</strong>
+            </article>
+          </div>
         </div>
-        <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/multiverse-fresh">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/">Back to Portfolio Index</a>
+        <aside class="hero-panel">
+          <p class="eyebrow">Branch Header</p>
+          <h2 id="branch-title">Loading branch</h2>
+          <p id="branch-premise" class="panel-copy"></p>
+          <p id="engine-note" class="engine-note">
+            Uses CesiumJS with generated altered-Earth overlays and search-driven universe discovery.
+          </p>
+        </aside>
+      </section>
+
+      <section class="control-bar">
+        <label class="control-field">
+          <span>Universe #</span>
+          <input id="seed-input" type="number" min="1" max="9999999" value="1" />
+        </label>
+        <button id="load-button" class="ghost-button" type="button">Load Universe</button>
+        <button id="previous-button" class="ghost-button" type="button">Previous</button>
+        <button id="next-button" class="ghost-button" type="button">Next</button>
+        <label class="control-field search-field">
+          <span>Search Event</span>
+          <input id="search-input" type="search" placeholder="Search events, places, futures, or divergences" />
+        </label>
+        <button id="search-button" class="ghost-button" type="button">Search Universes</button>
+      </section>
+
+      <section class="search-panel">
+        <div class="card-header">
+          <div>
+            <p class="eyebrow">Universe Search</p>
+            <h2>Event Matches</h2>
+          </div>
+          <span id="search-status" class="badge muted-badge">Idle</span>
         </div>
-        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/multiverse-fresh/</p>
+        <div id="search-results" class="search-results">
+          <article class="result-card empty-result">
+            <strong>Search universes</strong>
+            <p>Type an event or idea to find alternate histories that contain it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="search-panel">
+        <div class="card-header">
+          <div>
+            <p class="eyebrow">Dataset Layers</p>
+            <h2>Planet Systems</h2>
+          </div>
+          <span id="dataset-status" class="badge muted-badge">Manifest idle</span>
+        </div>
+        <div class="base-mode-panel">
+          <span class="base-mode-label">Base Globe</span>
+          <div id="base-mode-controls" class="layer-controls"></div>
+        </div>
+        <div id="layer-controls" class="layer-controls"></div>
+      </section>
+
+      <section class="viewer-grid">
+        <article class="globe-card">
+          <div class="card-header">
+            <div>
+              <p class="eyebrow">Earth Browser View</p>
+              <h2 id="globe-heading">Global branch scan</h2>
+            </div>
+            <span id="year-badge" class="badge">0000</span>
+          </div>
+          <div id="cesium-container" class="cesium-shell"></div>
+          <div class="map-caption">
+            <div>
+              <p class="eyebrow">Camera Mode</p>
+              <h3 id="mode-title">Global orbit</h3>
+            </div>
+            <p id="mode-copy"></p>
+          </div>
+        </article>
+
+        <article class="timeline-card">
+          <div class="card-header">
+            <div>
+              <p class="eyebrow">Timeline</p>
+              <h2 id="timeline-heading">Branch yearly state</h2>
+            </div>
+            <span id="share-state" class="badge muted-badge">Ready</span>
+          </div>
+
+          <div class="timeline-control">
+            <input id="era-slider" type="range" min="0" max="3" value="0" />
+            <div id="timeline-stops" class="timeline-stops"></div>
+          </div>
+
+          <div class="summary-stack">
+            <article class="summary-card">
+              <span>What Changed</span>
+              <strong id="summary-title"></strong>
+              <p id="summary-copy"></p>
+            </article>
+            <article class="summary-card">
+              <span>Future Consequence</span>
+              <strong id="future-title"></strong>
+              <p id="future-copy"></p>
+            </article>
+              <article class="summary-card">
+                <span>Selected Region</span>
+                <strong id="hotspot-title">Choose a hotspot</strong>
+                <p id="hotspot-copy">Region-level changes appear here.</p>
+                <div class="zoom-actions">
+                  <button id="zoom-in-button" class="ghost-button prompt-button" type="button">Zoom In</button>
+                  <button id="zoom-out-button" class="ghost-button prompt-button" type="button">Zoom Out</button>
+                </div>
+                <button id="street-view-button" class="ghost-button prompt-button" type="button">Zoom To Street Detail</button>
+              </article>
+            <article class="summary-card prompt-card">
+              <span>Multiverse Visual Prompt</span>
+              <strong id="prompt-title">Generated branch direction</strong>
+              <p id="prompt-copy">A branch-specific cinematic prompt will appear here.</p>
+              <button id="copy-prompt-button" class="ghost-button prompt-button" type="button">Copy Prompt</button>
+            </article>
+          </div>
+        </article>
       </section>
     </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>

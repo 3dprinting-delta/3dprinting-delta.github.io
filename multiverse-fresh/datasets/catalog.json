@@ -1,0 +1,1205 @@
+{
+  "generatedAt": "2026-03-31T03:59:13.479Z",
+  "universes": [
+    {
+      "seed": 1,
+      "code": "ALT-000001",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 1 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000001/manifest.json"
+    },
+    {
+      "seed": 2,
+      "code": "ALT-000002",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters arctic gate lagos london",
+      "searchSnippet": "Seed 2 follows a world where dense storage goes mainstream decades early, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000002/manifest.json"
+    },
+    {
+      "seed": 3,
+      "code": "ALT-000003",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters amazon basin london sydney shelf",
+      "searchSnippet": "Seed 3 follows a world where desalination ships remake water politics along every coast, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000003/manifest.json"
+    },
+    {
+      "seed": 4,
+      "code": "ALT-000004",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 4 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000004/manifest.json"
+    },
+    {
+      "seed": 5,
+      "code": "ALT-000005",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 5 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000005/manifest.json"
+    },
+    {
+      "seed": 6,
+      "code": "ALT-000006",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 6 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000006/manifest.json"
+    },
+    {
+      "seed": 7,
+      "code": "ALT-000007",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 7 follows a world where dense storage goes mainstream decades early, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000007/manifest.json"
+    },
+    {
+      "seed": 8,
+      "code": "ALT-000008",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form london amazon basin cairo",
+      "searchSnippet": "Seed 8 follows a world where desalination ships remake water politics along every coast, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000008/manifest.json"
+    },
+    {
+      "seed": 9,
+      "code": "ALT-000009",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 9 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000009/manifest.json"
+    },
+    {
+      "seed": 10,
+      "code": "ALT-000010",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 10 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000010/manifest.json"
+    },
+    {
+      "seed": 11,
+      "code": "ALT-000011",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 11 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000011/manifest.json"
+    },
+    {
+      "seed": 12,
+      "code": "ALT-000012",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 12 follows a world where dense storage goes mainstream decades early, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000012/manifest.json"
+    },
+    {
+      "seed": 13,
+      "code": "ALT-000013",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 13 follows a world where desalination ships remake water politics along every coast, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000013/manifest.json"
+    },
+    {
+      "seed": 14,
+      "code": "ALT-000014",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 14 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000014/manifest.json"
+    },
+    {
+      "seed": 15,
+      "code": "ALT-000015",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 15 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000015/manifest.json"
+    },
+    {
+      "seed": 16,
+      "code": "ALT-000016",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 16 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000016/manifest.json"
+    },
+    {
+      "seed": 17,
+      "code": "ALT-000017",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 17 follows a world where dense storage goes mainstream decades early, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000017/manifest.json"
+    },
+    {
+      "seed": 18,
+      "code": "ALT-000018",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints arctic gate lagos london",
+      "searchSnippet": "Seed 18 follows a world where desalination ships remake water politics along every coast, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000018/manifest.json"
+    },
+    {
+      "seed": 19,
+      "code": "ALT-000019",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints amazon basin london sydney shelf",
+      "searchSnippet": "Seed 19 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000019/manifest.json"
+    },
+    {
+      "seed": 20,
+      "code": "ALT-000020",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 20 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000020/manifest.json"
+    },
+    {
+      "seed": 21,
+      "code": "ALT-000021",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 21 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000021/manifest.json"
+    },
+    {
+      "seed": 22,
+      "code": "ALT-000022",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 22 follows a world where dense storage goes mainstream decades early, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000022/manifest.json"
+    },
+    {
+      "seed": 23,
+      "code": "ALT-000023",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 23 follows a world where desalination ships remake water politics along every coast, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000023/manifest.json"
+    },
+    {
+      "seed": 24,
+      "code": "ALT-000024",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters london amazon basin cairo",
+      "searchSnippet": "Seed 24 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000024/manifest.json"
+    },
+    {
+      "seed": 25,
+      "code": "ALT-000025",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 25 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000025/manifest.json"
+    },
+    {
+      "seed": 26,
+      "code": "ALT-000026",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 26 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000026/manifest.json"
+    },
+    {
+      "seed": 27,
+      "code": "ALT-000027",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form amazon basin london sydney shelf",
+      "searchSnippet": "Seed 27 follows a world where dense storage goes mainstream decades early, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000027/manifest.json"
+    },
+    {
+      "seed": 28,
+      "code": "ALT-000028",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 28 follows a world where desalination ships remake water politics along every coast, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000028/manifest.json"
+    },
+    {
+      "seed": 29,
+      "code": "ALT-000029",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 29 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000029/manifest.json"
+    },
+    {
+      "seed": 30,
+      "code": "ALT-000030",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 30 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000030/manifest.json"
+    },
+    {
+      "seed": 31,
+      "code": "ALT-000031",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 31 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000031/manifest.json"
+    },
+    {
+      "seed": 32,
+      "code": "ALT-000032",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity london amazon basin cairo",
+      "searchSnippet": "Seed 32 follows a world where dense storage goes mainstream decades early, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000032/manifest.json"
+    },
+    {
+      "seed": 33,
+      "code": "ALT-000033",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 33 follows a world where desalination ships remake water politics along every coast, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000033/manifest.json"
+    },
+    {
+      "seed": 34,
+      "code": "ALT-000034",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity arctic gate lagos london",
+      "searchSnippet": "Seed 34 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000034/manifest.json"
+    },
+    {
+      "seed": 35,
+      "code": "ALT-000035",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 35 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000035/manifest.json"
+    },
+    {
+      "seed": 36,
+      "code": "ALT-000036",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 36 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000036/manifest.json"
+    },
+    {
+      "seed": 37,
+      "code": "ALT-000037",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 37 follows a world where dense storage goes mainstream decades early, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000037/manifest.json"
+    },
+    {
+      "seed": 38,
+      "code": "ALT-000038",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 38 follows a world where desalination ships remake water politics along every coast, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000038/manifest.json"
+    },
+    {
+      "seed": 39,
+      "code": "ALT-000039",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 39 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000039/manifest.json"
+    },
+    {
+      "seed": 40,
+      "code": "ALT-000040",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 40 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000040/manifest.json"
+    },
+    {
+      "seed": 41,
+      "code": "ALT-000041",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 41 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000041/manifest.json"
+    },
+    {
+      "seed": 42,
+      "code": "ALT-000042",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters arctic gate lagos london",
+      "searchSnippet": "Seed 42 follows a world where dense storage goes mainstream decades early, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000042/manifest.json"
+    },
+    {
+      "seed": 43,
+      "code": "ALT-000043",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters amazon basin london sydney shelf",
+      "searchSnippet": "Seed 43 follows a world where desalination ships remake water politics along every coast, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000043/manifest.json"
+    },
+    {
+      "seed": 44,
+      "code": "ALT-000044",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 44 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000044/manifest.json"
+    },
+    {
+      "seed": 45,
+      "code": "ALT-000045",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 45 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000045/manifest.json"
+    },
+    {
+      "seed": 46,
+      "code": "ALT-000046",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 46 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000046/manifest.json"
+    },
+    {
+      "seed": 47,
+      "code": "ALT-000047",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 47 follows a world where dense storage goes mainstream decades early, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000047/manifest.json"
+    },
+    {
+      "seed": 48,
+      "code": "ALT-000048",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form london amazon basin cairo",
+      "searchSnippet": "Seed 48 follows a world where desalination ships remake water politics along every coast, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000048/manifest.json"
+    },
+    {
+      "seed": 49,
+      "code": "ALT-000049",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 49 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000049/manifest.json"
+    },
+    {
+      "seed": 50,
+      "code": "ALT-000050",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 50 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000050/manifest.json"
+    },
+    {
+      "seed": 51,
+      "code": "ALT-000051",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 51 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000051/manifest.json"
+    },
+    {
+      "seed": 52,
+      "code": "ALT-000052",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 52 follows a world where dense storage goes mainstream decades early, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000052/manifest.json"
+    },
+    {
+      "seed": 53,
+      "code": "ALT-000053",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 53 follows a world where desalination ships remake water politics along every coast, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000053/manifest.json"
+    },
+    {
+      "seed": 54,
+      "code": "ALT-000054",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 54 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000054/manifest.json"
+    },
+    {
+      "seed": 55,
+      "code": "ALT-000055",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 55 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000055/manifest.json"
+    },
+    {
+      "seed": 56,
+      "code": "ALT-000056",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 56 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000056/manifest.json"
+    },
+    {
+      "seed": 57,
+      "code": "ALT-000057",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 57 follows a world where dense storage goes mainstream decades early, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000057/manifest.json"
+    },
+    {
+      "seed": 58,
+      "code": "ALT-000058",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints arctic gate lagos london",
+      "searchSnippet": "Seed 58 follows a world where desalination ships remake water politics along every coast, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000058/manifest.json"
+    },
+    {
+      "seed": 59,
+      "code": "ALT-000059",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints amazon basin london sydney shelf",
+      "searchSnippet": "Seed 59 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000059/manifest.json"
+    },
+    {
+      "seed": 60,
+      "code": "ALT-000060",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 60 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000060/manifest.json"
+    },
+    {
+      "seed": 61,
+      "code": "ALT-000061",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 61 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000061/manifest.json"
+    },
+    {
+      "seed": 62,
+      "code": "ALT-000062",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 62 follows a world where dense storage goes mainstream decades early, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000062/manifest.json"
+    },
+    {
+      "seed": 63,
+      "code": "ALT-000063",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 63 follows a world where desalination ships remake water politics along every coast, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000063/manifest.json"
+    },
+    {
+      "seed": 64,
+      "code": "ALT-000064",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters london amazon basin cairo",
+      "searchSnippet": "Seed 64 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000064/manifest.json"
+    },
+    {
+      "seed": 65,
+      "code": "ALT-000065",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 65 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000065/manifest.json"
+    },
+    {
+      "seed": 66,
+      "code": "ALT-000066",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 66 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000066/manifest.json"
+    },
+    {
+      "seed": 67,
+      "code": "ALT-000067",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form amazon basin london sydney shelf",
+      "searchSnippet": "Seed 67 follows a world where dense storage goes mainstream decades early, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000067/manifest.json"
+    },
+    {
+      "seed": 68,
+      "code": "ALT-000068",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 68 follows a world where desalination ships remake water politics along every coast, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000068/manifest.json"
+    },
+    {
+      "seed": 69,
+      "code": "ALT-000069",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 69 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000069/manifest.json"
+    },
+    {
+      "seed": 70,
+      "code": "ALT-000070",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 70 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000070/manifest.json"
+    },
+    {
+      "seed": 71,
+      "code": "ALT-000071",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 71 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000071/manifest.json"
+    },
+    {
+      "seed": 72,
+      "code": "ALT-000072",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity london amazon basin cairo",
+      "searchSnippet": "Seed 72 follows a world where dense storage goes mainstream decades early, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000072/manifest.json"
+    },
+    {
+      "seed": 73,
+      "code": "ALT-000073",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 73 follows a world where desalination ships remake water politics along every coast, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000073/manifest.json"
+    },
+    {
+      "seed": 74,
+      "code": "ALT-000074",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity arctic gate lagos london",
+      "searchSnippet": "Seed 74 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000074/manifest.json"
+    },
+    {
+      "seed": 75,
+      "code": "ALT-000075",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 75 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000075/manifest.json"
+    },
+    {
+      "seed": 76,
+      "code": "ALT-000076",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 76 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000076/manifest.json"
+    },
+    {
+      "seed": 77,
+      "code": "ALT-000077",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 77 follows a world where dense storage goes mainstream decades early, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000077/manifest.json"
+    },
+    {
+      "seed": 78,
+      "code": "ALT-000078",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 78 follows a world where desalination ships remake water politics along every coast, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000078/manifest.json"
+    },
+    {
+      "seed": 79,
+      "code": "ALT-000079",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 79 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000079/manifest.json"
+    },
+    {
+      "seed": 80,
+      "code": "ALT-000080",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 80 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000080/manifest.json"
+    },
+    {
+      "seed": 81,
+      "code": "ALT-000081",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 81 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000081/manifest.json"
+    },
+    {
+      "seed": 82,
+      "code": "ALT-000082",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters arctic gate lagos london",
+      "searchSnippet": "Seed 82 follows a world where dense storage goes mainstream decades early, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000082/manifest.json"
+    },
+    {
+      "seed": 83,
+      "code": "ALT-000083",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters amazon basin london sydney shelf",
+      "searchSnippet": "Seed 83 follows a world where desalination ships remake water politics along every coast, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000083/manifest.json"
+    },
+    {
+      "seed": 84,
+      "code": "ALT-000084",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 84 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000084/manifest.json"
+    },
+    {
+      "seed": 85,
+      "code": "ALT-000085",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 85 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000085/manifest.json"
+    },
+    {
+      "seed": 86,
+      "code": "ALT-000086",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 86 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000086/manifest.json"
+    },
+    {
+      "seed": 87,
+      "code": "ALT-000087",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 87 follows a world where dense storage goes mainstream decades early, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000087/manifest.json"
+    },
+    {
+      "seed": 88,
+      "code": "ALT-000088",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form london amazon basin cairo",
+      "searchSnippet": "Seed 88 follows a world where desalination ships remake water politics along every coast, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000088/manifest.json"
+    },
+    {
+      "seed": 89,
+      "code": "ALT-000089",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 89 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000089/manifest.json"
+    },
+    {
+      "seed": 90,
+      "code": "ALT-000090",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 90 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000090/manifest.json"
+    },
+    {
+      "seed": 91,
+      "code": "ALT-000091",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 91 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000091/manifest.json"
+    },
+    {
+      "seed": 92,
+      "code": "ALT-000092",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 92 follows a world where dense storage goes mainstream decades early, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000092/manifest.json"
+    },
+    {
+      "seed": 93,
+      "code": "ALT-000093",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 93 follows a world where desalination ships remake water politics along every coast, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000093/manifest.json"
+    },
+    {
+      "seed": 94,
+      "code": "ALT-000094",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 94 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000094/manifest.json"
+    },
+    {
+      "seed": 95,
+      "code": "ALT-000095",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 95 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000095/manifest.json"
+    },
+    {
+      "seed": 96,
+      "code": "ALT-000096",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 96 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000096/manifest.json"
+    },
+    {
+      "seed": 97,
+      "code": "ALT-000097",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 97 follows a world where dense storage goes mainstream decades early, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000097/manifest.json"
+    },
+    {
+      "seed": 98,
+      "code": "ALT-000098",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints arctic gate lagos london",
+      "searchSnippet": "Seed 98 follows a world where desalination ships remake water politics along every coast, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000098/manifest.json"
+    },
+    {
+      "seed": 99,
+      "code": "ALT-000099",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints amazon basin london sydney shelf",
+      "searchSnippet": "Seed 99 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000099/manifest.json"
+    },
+    {
+      "seed": 100,
+      "code": "ALT-000100",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 100 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000100/manifest.json"
+    },
+    {
+      "seed": 101,
+      "code": "ALT-000101",
+      "title": "Open Printing / Research Commonwealth",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 101 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000101/manifest.json"
+    },
+    {
+      "seed": 102,
+      "code": "ALT-000102",
+      "title": "Battery Leap / Research Commonwealth",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 102 follows a world where dense storage goes mainstream decades early, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000102/manifest.json"
+    },
+    {
+      "seed": 103,
+      "code": "ALT-000103",
+      "title": "Ocean Cities / Research Commonwealth",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 103 follows a world where desalination ships remake water politics along every coast, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000103/manifest.json"
+    },
+    {
+      "seed": 104,
+      "code": "ALT-000104",
+      "title": "Planetary Watch / Research Commonwealth",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters london amazon basin cairo",
+      "searchSnippet": "Seed 104 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000104/manifest.json"
+    },
+    {
+      "seed": 105,
+      "code": "ALT-000105",
+      "title": "Monsoon Compute / Research Commonwealth",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation research commonwealth prestige shifts from scarcity control to openly useful discovery planetary life organizes around public laboratories and restoration charters lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 105 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000105/manifest.json"
+    },
+    {
+      "seed": 106,
+      "code": "ALT-000106",
+      "title": "Open Printing / Pelagic Union",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form arctic gate lagos london",
+      "searchSnippet": "Seed 106 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000106/manifest.json"
+    },
+    {
+      "seed": 107,
+      "code": "ALT-000107",
+      "title": "Battery Leap / Pelagic Union",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form amazon basin london sydney shelf",
+      "searchSnippet": "Seed 107 follows a world where dense storage goes mainstream decades early, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000107/manifest.json"
+    },
+    {
+      "seed": 108,
+      "code": "ALT-000108",
+      "title": "Ocean Cities / Pelagic Union",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 108 follows a world where desalination ships remake water politics along every coast, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000108/manifest.json"
+    },
+    {
+      "seed": 109,
+      "code": "ALT-000109",
+      "title": "Planetary Watch / Pelagic Union",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 109 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000109/manifest.json"
+    },
+    {
+      "seed": 110,
+      "code": "ALT-000110",
+      "title": "Monsoon Compute / Pelagic Union",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation pelagic union ports and current routes matter more than old inland power centers floating districts and reef metropolises become the dominant urban form cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 110 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000110/manifest.json"
+    },
+    {
+      "seed": 111,
+      "code": "ALT-000111",
+      "title": "Open Printing / Prepared Planet",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 111 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000111/manifest.json"
+    },
+    {
+      "seed": 112,
+      "code": "ALT-000112",
+      "title": "Battery Leap / Prepared Planet",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity london amazon basin cairo",
+      "searchSnippet": "Seed 112 follows a world where dense storage goes mainstream decades early, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000112/manifest.json"
+    },
+    {
+      "seed": 113,
+      "code": "ALT-000113",
+      "title": "Ocean Cities / Prepared Planet",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity lagos arctic gate amazon basin",
+      "searchSnippet": "Seed 113 follows a world where desalination ships remake water politics along every coast, spreading first through Lagos and Arctic Gate.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000113/manifest.json"
+    },
+    {
+      "seed": 114,
+      "code": "ALT-000114",
+      "title": "Planetary Watch / Prepared Planet",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity arctic gate lagos london",
+      "searchSnippet": "Seed 114 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Arctic Gate and Lagos.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000114/manifest.json"
+    },
+    {
+      "seed": 115,
+      "code": "ALT-000115",
+      "title": "Monsoon Compute / Prepared Planet",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation prepared planet simulations and rehearsals become more trusted than panic politics earth expands into orbit with resilience engineering as a civic identity amazon basin london sydney shelf",
+      "searchSnippet": "Seed 115 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through Amazon Basin and London.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000115/manifest.json"
+    },
+    {
+      "seed": 116,
+      "code": "ALT-000116",
+      "title": "Open Printing / Soft Grid Era",
+      "summary": "knowledge acceleration becomes the dominant organizing logic of this branch.",
+      "searchText": "open printing trade-port printing spreads before monarchies can lock it down knowledge acceleration soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints mumbai tokyo bay arctic gate",
+      "searchSnippet": "Seed 116 follows a world where trade-port printing spreads before monarchies can lock it down, spreading first through Mumbai and Tokyo Bay.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000116/manifest.json"
+    },
+    {
+      "seed": 117,
+      "code": "ALT-000117",
+      "title": "Battery Leap / Soft Grid Era",
+      "summary": "distributed energy becomes the dominant organizing logic of this branch.",
+      "searchText": "battery leap dense storage goes mainstream decades early distributed energy soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints sydney shelf cairo tokyo bay",
+      "searchSnippet": "Seed 117 follows a world where dense storage goes mainstream decades early, spreading first through Sydney Shelf and Cairo.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000117/manifest.json"
+    },
+    {
+      "seed": 118,
+      "code": "ALT-000118",
+      "title": "Ocean Cities / Soft Grid Era",
+      "summary": "maritime urbanism becomes the dominant organizing logic of this branch.",
+      "searchText": "ocean cities desalination ships remake water politics along every coast maritime urbanism soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints cairo sydney shelf mumbai",
+      "searchSnippet": "Seed 118 follows a world where desalination ships remake water politics along every coast, spreading first through Cairo and Sydney Shelf.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000118/manifest.json"
+    },
+    {
+      "seed": 119,
+      "code": "ALT-000119",
+      "title": "Planetary Watch / Soft Grid Era",
+      "summary": "preparedness culture becomes the dominant organizing logic of this branch.",
+      "searchText": "planetary watch asteroid defense becomes a planetary mission after a sky shock preparedness culture soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints tokyo bay mumbai lagos",
+      "searchSnippet": "Seed 119 follows a world where asteroid defense becomes a planetary mission after a sky shock, spreading first through Tokyo Bay and Mumbai.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000119/manifest.json"
+    },
+    {
+      "seed": 120,
+      "code": "ALT-000120",
+      "title": "Monsoon Compute / Soft Grid Era",
+      "summary": "civic computation becomes the dominant organizing logic of this branch.",
+      "searchText": "monsoon compute mesh forecasting networks arrive before consumer social media civic computation soft grid era local abundance rewrites housing, industry, and diplomacy from below decentralized fabrication belts replace many fossil-era chokepoints london amazon basin cairo",
+      "searchSnippet": "Seed 120 follows a world where mesh forecasting networks arrive before consumer social media, spreading first through London and Amazon Basin.",
+      "matchReason": "Dataset catalog",
+      "manifest": "./datasets/universes/ALT-000120/manifest.json"
+    }
+  ]
+}

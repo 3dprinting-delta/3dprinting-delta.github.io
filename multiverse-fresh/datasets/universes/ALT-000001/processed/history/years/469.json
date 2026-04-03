@@ -1,0 +1,140 @@
+{
+  "year": 469,
+  "eraIndex": 0,
+  "nextEraIndex": 3,
+  "phase": "Early human baseline -> Research Commonwealth Origin",
+  "progress": 0.7763229678123296,
+  "civilizationStage": "proto-settlement",
+  "civilizationStageLabel": "Proto-settlement",
+  "builtEnvironmentLevel": 2,
+  "detailMode": "camp",
+  "allowStreetMode": false,
+  "branchOverrideReason": null,
+  "historyStartYear": -220000,
+  "historyEndYear": 1699,
+  "historyStartReason": "This branch begins with anatomically early humans and preserves a long prehistory before institutional divergence.",
+  "firstSettlementYear": -3800,
+  "firstSettlementReason": "The interactive branch timeline begins with the first durable settlements that can support knowledge exchange.",
+  "summary": "In 469, knowledge acceleration is in a proto-settlement stage, with a warmer atmosphere, higher coastlines, 58% vegetation vitality, and 14% settlement intensity relative to the branch baseline.",
+  "systems": {
+    "atmosphere": {
+      "temperatureAnomalyC": 0.65,
+      "aerosolIndex": 0.277,
+      "cloudCover": 0.502,
+      "stormEnergyIndex": 0.62
+    },
+    "ocean": {
+      "seaLevelMeters": 2.21,
+      "surfaceTempAnomalyC": 0.4,
+      "currentIntensityIndex": 0.663,
+      "salinityShiftIndex": 0.013
+    },
+    "landUse": {
+      "cultivatedShare": 0.08,
+      "urbanShare": 0.03,
+      "restorationShare": 0.19,
+      "extractionShare": 0.213
+    },
+    "vegetation": {
+      "vitalityIndex": 0.577,
+      "forestCoverShare": 0.494,
+      "cropDiversityIndex": 0.249
+    },
+    "ice": {
+      "polarExtentIndex": 0.604,
+      "glacierMassIndex": 0.593,
+      "albedoIndex": 0.531
+    },
+    "settlement": {
+      "intensityIndex": 0.14,
+      "connectivityIndex": 0.18,
+      "coastalUrbanShare": 0.03,
+      "orbitalInfrastructureIndex": 0
+    }
+  },
+  "tiles": {
+    "surface": "./processed/history/tiles/469/surface/0/0/0.svg",
+    "climate": "./processed/history/tiles/469/climate/0/0/0.svg",
+    "settlement": "./processed/history/tiles/469/settlement/0/0/0.svg"
+  },
+  "render": {
+    "year": 469,
+    "globe": {
+      "baseColor": "#183654",
+      "atmosphereTint": "#89d5ff",
+      "fogTint": "#6dc7ff",
+      "hueShift": -0.022,
+      "saturationShift": 0.08,
+      "brightnessShift": 0.03,
+      "fogDensity": 0.000176,
+      "layerStyles": {
+        "surface": {
+          "alpha": 1,
+          "brightness": 1.04,
+          "contrast": 1.12,
+          "saturation": 1.198,
+          "gamma": 0.95,
+          "hue": -0.01
+        },
+        "elevation": {
+          "alpha": 0.28,
+          "brightness": 1.04,
+          "contrast": 1.12,
+          "saturation": 1.02,
+          "gamma": 1,
+          "hue": 0
+        },
+        "climate": {
+          "alpha": 0.38,
+          "brightness": 1.03,
+          "contrast": 1.05,
+          "saturation": 1.28,
+          "gamma": 1,
+          "hue": -0.004
+        },
+        "biomes": {
+          "alpha": 0.24,
+          "brightness": 1.02,
+          "contrast": 1.08,
+          "saturation": 1.18,
+          "gamma": 1,
+          "hue": -0.003
+        },
+        "hydrology": {
+          "alpha": 0.34,
+          "brightness": 1.06,
+          "contrast": 1.12,
+          "saturation": 1.18,
+          "gamma": 1,
+          "hue": -0.02
+        },
+        "settlement": {
+          "alpha": 0.12,
+          "brightness": 1.08,
+          "contrast": 1.12,
+          "saturation": 1.12,
+          "gamma": 0.95,
+          "hue": -0.005
+        }
+      }
+    },
+    "local": {
+      "accent": "#88d2f4",
+      "road": "#8b775b",
+      "hub": "#f8edb4",
+      "facade": "#9b7b56",
+      "roof": "#6f5438",
+      "parcel": "#5d4a35",
+      "plaza": "#b79d74",
+      "water": "#69c0ff",
+      "greenery": "#73d1a2",
+      "transit": "#7e6c52",
+      "landmark": "#c7aa74",
+      "glow": 0.2,
+      "roadGlow": 0.16,
+      "buildingAlpha": 0.252,
+      "infrastructureMix": 0.064,
+      "sceneMood": "By 469, this branch is still in an early-human phase before its first authored divergence era."
+    }
+  }
+}
